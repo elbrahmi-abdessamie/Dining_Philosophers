@@ -12,22 +12,36 @@ void	*stat()
 	}
 	return NULL;
 }
+void	*russ_roll()
+{
+	int val = (rand() % 6) + 1;
+	x += val;
+	printf("U've got => %d\n", val);
+	return (NULL);
+}
 int		thread_init(pthread_t *threads, int n_thread)
 {
+		puts("--------------- Dream on --------------\n");
+		puts("---------- GET THE LUCKY ¬12¬ ------------\n");
 	for(int i = 0; i < n_thread; i++)
 	{
-		printf("Thread %d started counting...\n", i + 1);
-		printf("x => %d\n", x);
-		if (pthread_create(&threads[i], NULL, &stat, NULL))
+		// printf("Thread %d started counting...\n", i + 1);
+		// printf("x => %d\n", x);
+		if (pthread_create(&threads[i], NULL, &russ_roll, NULL))
 			return (puts("Failed to create thread\n"), 1);
-		usleep(50000);
+		// usleep(50000);
+	}
+	for(int i = 0; i < n_thread; i++)
+	{
 		if (pthread_join(threads[i], NULL))
 			return (puts("Failed to join thread\n"), 2);
-		printf("Thread %d end counting...\n", i + 1);
-		printf("x => %d\n", x);
+		// printf("Thread %d end counting...\n", i + 1);
+		// printf("x => %d\n", x);
 	}
+		puts("---------------- wake up ---------------\n");
 	return 0;
 }
+
 int		t_create(char *av)
 {
 	int n_philo = atoi(av);
@@ -44,8 +58,19 @@ int		t_create(char *av)
 }
 int main(int ac, char **av)
 {
+	srand(time(NULL));
+	float prs = 0.0000001;
 	if (t_create(av[1]))
 		puts("Error\n");	
-	printf("\b x value => %d\n", x);
+	if (x == 12)
+	{
+		if (atoi(av[1]) == 2)
+			printf("GOOD GAME YOU GOT %.7fBTC>\n", prs / pow(10, 2));
+		else if (atoi(av[1]) > 2)
+			printf("GOOD GAME YOU GOT %.7fBTC>\n", (prs * pow(10, (double)atoi(av[1]))));
+	}	
+	else{
+		printf("GOOD LUCK NEXT TIMEπ\n");
+	}
 	return 0;
 }
