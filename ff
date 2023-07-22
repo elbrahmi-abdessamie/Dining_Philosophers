@@ -1,0 +1,2001 @@
+ |         0 | | PHILO | | 1 | | take the fork ||
+  0   0 |         0 | | PHILO | | 1 | | take the fork ||
+  0   0 |         0 | | PHILO | | 1 | | eating ||
+  0   0 |         0 | | PHILO | | 3 | | take the fork ||
+  0   0 |         0 | | PHILO | | 3 | | take the fork ||
+  0   0 |         0 | | PHILO | | 3 | | eating ||
+  0   0 |         0 | | PHILO | | 5 | | take the fork ||
+  0   0 |         0 | | PHILO | | 5 | | take the fork ||
+  0   0 |         0 | | PHILO | | 5 | | eating ||
+  0   0 |         0 | | PHILO | | 7 | | take the fork ||
+  0   0 |         0 | | PHILO | | 7 | | take the fork ||
+  0   0 |         0 | | PHILO | | 7 | | eating ||
+  0   0 |         0 | | PHILO | | 9 | | take the fork ||
+  0   0 |         0 | | PHILO | | 9 | | take the fork ||
+  0   0 |         0 | | PHILO | | 9 | | eating ||
+  0   0 |         0 | | PHILO | | 11 | | take the fork ||
+  0   0 |         0 | | PHILO | | 11 | | take the fork ||
+  0   0 |         0 | | PHILO | | 11 | | eating ||
+  0   0 |         0 | | PHILO | | 13 | | take the fork ||
+  0   0 |         0 | | PHILO | | 13 | | take the fork ||
+  0   0 |         0 | | PHILO | | 13 | | eating ||
+  0   0 |         0 | | PHILO | | 15 | | take the fork ||
+  0   0 |         0 | | PHILO | | 15 | | take the fork ||
+  0   0 |         0 | | PHILO | | 15 | | eating ||
+  0   0 |         0 | | PHILO | | 17 | | take the fork ||
+  0   0 |         0 | | PHILO | | 17 | | take the fork ||
+  0   0 |         0 | | PHILO | | 17 | | eating ||
+  0   0 |         0 | | PHILO | | 19 | | take the fork ||
+  0   0 |         0 | | PHILO | | 19 | | take the fork ||
+  0   0 |         0 | | PHILO | | 19 | | eating ||
+  0   0 |         0 | | PHILO | | 21 | | take the fork ||
+  0   0 |         0 | | PHILO | | 21 | | take the fork ||
+  0   0 |         0 | | PHILO | | 21 | | eating ||
+  0   0 |         0 | | PHILO | | 23 | | take the fork ||
+  0   0 |         0 | | PHILO | | 23 | | take the fork ||
+  0   0 |         0 | | PHILO | | 23 | | eating ||
+  0   0 |         0 | | PHILO | | 25 | | take the fork ||
+  0   0 |         0 | | PHILO | | 25 | | take the fork ||
+  0   0 |         0 | | PHILO | | 25 | | eating ||
+  0   0 |         0 | | PHILO | | 27 | | take the fork ||
+  0   0 |         0 | | PHILO | | 27 | | take the fork ||
+  0   0 |         0 | | PHILO | | 27 | | eating ||
+  0   0 |         1 | | PHILO | | 29 | | take the fork ||
+  0   0 |         1 | | PHILO | | 29 | | take the fork ||
+  0   0 |         1 | | PHILO | | 29 | | eating ||
+  0   0 |         1 | | PHILO | | 31 | | take the fork ||
+  0   0 |         1 | | PHILO | | 31 | | take the fork ||
+  0   0 |         1 | | PHILO | | 31 | | eating ||
+  0   0 |         1 | | PHILO | | 33 | | take the fork ||
+  0   0 |         1 | | PHILO | | 33 | | take the fork ||
+  0   0 |         1 | | PHILO | | 33 | | eating ||
+  0   0 |         1 | | PHILO | | 35 | | take the fork ||
+  0   0 |         1 | | PHILO | | 35 | | take the fork ||
+  0   0 |         1 | | PHILO | | 35 | | eating ||
+  0   0 |         1 | | PHILO | | 37 | | take the fork ||
+  0   0 |         1 | | PHILO | | 37 | | take the fork ||
+  0   0 |         1 | | PHILO | | 37 | | eating ||
+  0   0 |         1 | | PHILO | | 39 | | take the fork ||
+  0   0 |         1 | | PHILO | | 39 | | take the fork ||
+  0   0 |         1 | | PHILO | | 39 | | eating ||
+  0   0 |         1 | | PHILO | | 41 | | take the fork ||
+  0   0 |         1 | | PHILO | | 41 | | take the fork ||
+  0   0 |         1 | | PHILO | | 41 | | eating ||
+  0   0 |         1 | | PHILO | | 43 | | take the fork ||
+  0   0 |         1 | | PHILO | | 43 | | take the fork ||
+  0   0 |         1 | | PHILO | | 43 | | eating ||
+  0   0 |         1 | | PHILO | | 45 | | take the fork ||
+  0   0 |         1 | | PHILO | | 45 | | take the fork ||
+  0   0 |         1 | | PHILO | | 45 | | eating ||
+  0   0 |         1 | | PHILO | | 47 | | take the fork ||
+  0   0 |         1 | | PHILO | | 47 | | take the fork ||
+  0   0 |         1 | | PHILO | | 47 | | eating ||
+  0   0 |         1 | | PHILO | | 49 | | take the fork ||
+  0   0 |         1 | | PHILO | | 49 | | take the fork ||
+  0   0 |         1 | | PHILO | | 49 | | eating ||
+  0   0 |         1 | | PHILO | | 51 | | take the fork ||
+  0   0 |         1 | | PHILO | | 51 | | take the fork ||
+  0   0 |         1 | | PHILO | | 51 | | eating ||
+  0   0 |         1 | | PHILO | | 53 | | take the fork ||
+  0   0 |         1 | | PHILO | | 53 | | take the fork ||
+  0   0 |         1 | | PHILO | | 53 | | eating ||
+  0   0 |         1 | | PHILO | | 55 | | take the fork ||
+  0   0 |         1 | | PHILO | | 55 | | take the fork ||
+  0   0 |         1 | | PHILO | | 55 | | eating ||
+  0   0 |         1 | | PHILO | | 57 | | take the fork ||
+  0   0 |         1 | | PHILO | | 57 | | take the fork ||
+  0   0 |         1 | | PHILO | | 57 | | eating ||
+  0   0 |         1 | | PHILO | | 59 | | take the fork ||
+  0   0 |         1 | | PHILO | | 59 | | take the fork ||
+  0   0 |         1 | | PHILO | | 59 | | eating ||
+  0   0 |         1 | | PHILO | | 61 | | take the fork ||
+  0   0 |         1 | | PHILO | | 61 | | take the fork ||
+  0   0 |         1 | | PHILO | | 61 | | eating ||
+  0   0 |         1 | | PHILO | | 63 | | take the fork ||
+  0   0 |         1 | | PHILO | | 63 | | take the fork ||
+  0   0 |         1 | | PHILO | | 63 | | eating ||
+  0   0 |         1 | | PHILO | | 65 | | take the fork ||
+  0   0 |         1 | | PHILO | | 65 | | take the fork ||
+  0   0 |         1 | | PHILO | | 65 | | eating ||
+  0   0 |         1 | | PHILO | | 67 | | take the fork ||
+  0   0 |         1 | | PHILO | | 67 | | take the fork ||
+  0   0 |         1 | | PHILO | | 67 | | eating ||
+  0   0 |         1 | | PHILO | | 69 | | take the fork ||
+  0   0 |         1 | | PHILO | | 69 | | take the fork ||
+  0   0 |         1 | | PHILO | | 69 | | eating ||
+  0   0 |         1 | | PHILO | | 71 | | take the fork ||
+  0   0 |         1 | | PHILO | | 71 | | take the fork ||
+  0   0 |         1 | | PHILO | | 71 | | eating ||
+  0   0 |         1 | | PHILO | | 73 | | take the fork ||
+  0   0 |         1 | | PHILO | | 73 | | take the fork ||
+  0   0 |         1 | | PHILO | | 73 | | eating ||
+  0   0 |         2 | | PHILO | | 75 | | take the fork ||
+  0   0 |         2 | | PHILO | | 75 | | take the fork ||
+  0   0 |         2 | | PHILO | | 75 | | eating ||
+  0   0 |         2 | | PHILO | | 77 | | take the fork ||
+  0   0 |         2 | | PHILO | | 77 | | take the fork ||
+  0   0 |         2 | | PHILO | | 77 | | eating ||
+  0   0 |         2 | | PHILO | | 79 | | take the fork ||
+  0   0 |         2 | | PHILO | | 79 | | take the fork ||
+  0   0 |         2 | | PHILO | | 79 | | eating ||
+  0   0 |         2 | | PHILO | | 81 | | take the fork ||
+  0   0 |         2 | | PHILO | | 81 | | take the fork ||
+  0   0 |         2 | | PHILO | | 81 | | eating ||
+  0   0 |         2 | | PHILO | | 83 | | take the fork ||
+  0   0 |         2 | | PHILO | | 83 | | take the fork ||
+  0   0 |         2 | | PHILO | | 83 | | eating ||
+  0   0 |         2 | | PHILO | | 85 | | take the fork ||
+  0   0 |         2 | | PHILO | | 85 | | take the fork ||
+  0   0 |         2 | | PHILO | | 85 | | eating ||
+  0   0 |         2 | | PHILO | | 87 | | take the fork ||
+  0   0 |         2 | | PHILO | | 87 | | take the fork ||
+  0   0 |         2 | | PHILO | | 87 | | eating ||
+  0   0 |         2 | | PHILO | | 89 | | take the fork ||
+  0   0 |         2 | | PHILO | | 89 | | take the fork ||
+  0   0 |         2 | | PHILO | | 89 | | eating ||
+  0   0 |         2 | | PHILO | | 91 | | take the fork ||
+  0   0 |         2 | | PHILO | | 91 | | take the fork ||
+  0   0 |         2 | | PHILO | | 91 | | eating ||
+  0   0 |         2 | | PHILO | | 93 | | take the fork ||
+  0   0 |         2 | | PHILO | | 93 | | take the fork ||
+  0   0 |         2 | | PHILO | | 93 | | eating ||
+  0   0 |         2 | | PHILO | | 95 | | take the fork ||
+  0   0 |         2 | | PHILO | | 95 | | take the fork ||
+  0   0 |         2 | | PHILO | | 95 | | eating ||
+  0   0 |         2 | | PHILO | | 97 | | take the fork ||
+  0   0 |         2 | | PHILO | | 97 | | take the fork ||
+  0   0 |         2 | | PHILO | | 97 | | eating ||
+  0   0 |         2 | | PHILO | | 99 | | take the fork ||
+  0   0 |         2 | | PHILO | | 99 | | take the fork ||
+  0   0 |         2 | | PHILO | | 99 | | eating ||
+  0   0 |         2 | | PHILO | | 101 | | take the fork ||
+  0   0 |         2 | | PHILO | | 101 | | take the fork ||
+  0   0 |         2 | | PHILO | | 101 | | eating ||
+  0   0 |         2 | | PHILO | | 103 | | take the fork ||
+  0   0 |         2 | | PHILO | | 103 | | take the fork ||
+  0   0 |         2 | | PHILO | | 103 | | eating ||
+  0   0 |         2 | | PHILO | | 105 | | take the fork ||
+  0   0 |         2 | | PHILO | | 105 | | take the fork ||
+  0   0 |         2 | | PHILO | | 105 | | eating ||
+  0   0 |         2 | | PHILO | | 107 | | take the fork ||
+  0   0 |         2 | | PHILO | | 107 | | take the fork ||
+  0   0 |         2 | | PHILO | | 107 | | eating ||
+  0   0 |         2 | | PHILO | | 109 | | take the fork ||
+  0   0 |         2 | | PHILO | | 109 | | take the fork ||
+  0   0 |         2 | | PHILO | | 109 | | eating ||
+  0   0 |         3 | | PHILO | | 111 | | take the fork ||
+  0   0 |         3 | | PHILO | | 111 | | take the fork ||
+  0   0 |         3 | | PHILO | | 111 | | eating ||
+  0   0 |         3 | | PHILO | | 113 | | take the fork ||
+  0   0 |         3 | | PHILO | | 113 | | take the fork ||
+  0   0 |         3 | | PHILO | | 113 | | eating ||
+  0   0 |         3 | | PHILO | | 115 | | take the fork ||
+  0   0 |         3 | | PHILO | | 115 | | take the fork ||
+  0   0 |         3 | | PHILO | | 115 | | eating ||
+  0   0 |         3 | | PHILO | | 117 | | take the fork ||
+  0   0 |         3 | | PHILO | | 117 | | take the fork ||
+  0   0 |         3 | | PHILO | | 117 | | eating ||
+  0   0 |         3 | | PHILO | | 119 | | take the fork ||
+  0   0 |         3 | | PHILO | | 119 | | take the fork ||
+  0   0 |         3 | | PHILO | | 119 | | eating ||
+  0   0 |         3 | | PHILO | | 121 | | take the fork ||
+  0   0 |         3 | | PHILO | | 121 | | take the fork ||
+  0   0 |         3 | | PHILO | | 121 | | eating ||
+  0   0 |         3 | | PHILO | | 123 | | take the fork ||
+  0   0 |         3 | | PHILO | | 123 | | take the fork ||
+  0   0 |         3 | | PHILO | | 123 | | eating ||
+  0   0 |         3 | | PHILO | | 125 | | take the fork ||
+  0   0 |         3 | | PHILO | | 125 | | take the fork ||
+  0   0 |         3 | | PHILO | | 125 | | eating ||
+  0   0 |         3 | | PHILO | | 127 | | take the fork ||
+  0   0 |         3 | | PHILO | | 127 | | take the fork ||
+  0   0 |         3 | | PHILO | | 127 | | eating ||
+  0   0 |         3 | | PHILO | | 129 | | take the fork ||
+  0   0 |         3 | | PHILO | | 129 | | take the fork ||
+  0   0 |         3 | | PHILO | | 129 | | eating ||
+  0   0 |         3 | | PHILO | | 131 | | take the fork ||
+  0   0 |         3 | | PHILO | | 131 | | take the fork ||
+  0   0 |         3 | | PHILO | | 131 | | eating ||
+  0   0 |         3 | | PHILO | | 133 | | take the fork ||
+  0   0 |         3 | | PHILO | | 133 | | take the fork ||
+  0   0 |         3 | | PHILO | | 133 | | eating ||
+  0   0 |         3 | | PHILO | | 135 | | take the fork ||
+  0   0 |         3 | | PHILO | | 135 | | take the fork ||
+  0   0 |         3 | | PHILO | | 135 | | eating ||
+  0   0 |         3 | | PHILO | | 137 | | take the fork ||
+  0   0 |         3 | | PHILO | | 137 | | take the fork ||
+  0   0 |         3 | | PHILO | | 137 | | eating ||
+  0   0 |         4 | | PHILO | | 139 | | take the fork ||
+  0   0 |         4 | | PHILO | | 139 | | take the fork ||
+  0   0 |         4 | | PHILO | | 139 | | eating ||
+  0   0 |         4 | | PHILO | | 141 | | take the fork ||
+  0   0 |         4 | | PHILO | | 141 | | take the fork ||
+  0   0 |         4 | | PHILO | | 141 | | eating ||
+  0   0 |         4 | | PHILO | | 143 | | take the fork ||
+  0   0 |         4 | | PHILO | | 143 | | take the fork ||
+  0   0 |         4 | | PHILO | | 143 | | eating ||
+  0   0 |         4 | | PHILO | | 145 | | take the fork ||
+  0   0 |         4 | | PHILO | | 145 | | take the fork ||
+  0   0 |         4 | | PHILO | | 145 | | eating ||
+  0   0 |         4 | | PHILO | | 147 | | take the fork ||
+  0   0 |         4 | | PHILO | | 147 | | take the fork ||
+  0   0 |         4 | | PHILO | | 147 | | eating ||
+  0   0 |         4 | | PHILO | | 149 | | take the fork ||
+  0   0 |         4 | | PHILO | | 149 | | take the fork ||
+  0   0 |         4 | | PHILO | | 149 | | eating ||
+  0   0 |         4 | | PHILO | | 151 | | take the fork ||
+  0   0 |         4 | | PHILO | | 151 | | take the fork ||
+  0   0 |         4 | | PHILO | | 151 | | eating ||
+  0   0 |         4 | | PHILO | | 153 | | take the fork ||
+  0   0 |         4 | | PHILO | | 153 | | take the fork ||
+  0   0 |         4 | | PHILO | | 153 | | eating ||
+  0   0 |         4 | | PHILO | | 155 | | take the fork ||
+  0   0 |         4 | | PHILO | | 155 | | take the fork ||
+  0   0 |         4 | | PHILO | | 155 | | eating ||
+  0   0 |         5 | | PHILO | | 157 | | take the fork ||
+  0   0 |         5 | | PHILO | | 157 | | take the fork ||
+  0   0 |         5 | | PHILO | | 157 | | eating ||
+  0   0 |         5 | | PHILO | | 159 | | take the fork ||
+  0   0 |         5 | | PHILO | | 159 | | take the fork ||
+  0   0 |         5 | | PHILO | | 159 | | eating ||
+  0   0 |         5 | | PHILO | | 161 | | take the fork ||
+  0   0 |         5 | | PHILO | | 161 | | take the fork ||
+  0   0 |         5 | | PHILO | | 161 | | eating ||
+  0   0 |         5 | | PHILO | | 163 | | take the fork ||
+  0   0 |         5 | | PHILO | | 163 | | take the fork ||
+  0   0 |         5 | | PHILO | | 163 | | eating ||
+  0   0 |         5 | | PHILO | | 165 | | take the fork ||
+  0   0 |         5 | | PHILO | | 165 | | take the fork ||
+  0   0 |         5 | | PHILO | | 165 | | eating ||
+  0   0 |         5 | | PHILO | | 167 | | take the fork ||
+  0   0 |         5 | | PHILO | | 167 | | take the fork ||
+  0   0 |         5 | | PHILO | | 167 | | eating ||
+  0   0 |         5 | | PHILO | | 169 | | take the fork ||
+  0   0 |         5 | | PHILO | | 169 | | take the fork ||
+  0   0 |         5 | | PHILO | | 169 | | eating ||
+  0   0 |         5 | | PHILO | | 171 | | take the fork ||
+  0   0 |         5 | | PHILO | | 171 | | take the fork ||
+  0   0 |         5 | | PHILO | | 171 | | eating ||
+  0   0 |         6 | | PHILO | | 173 | | take the fork ||
+  0   0 |         6 | | PHILO | | 173 | | take the fork ||
+  0   0 |         6 | | PHILO | | 173 | | eating ||
+  0   0 |         6 | | PHILO | | 175 | | take the fork ||
+  0   0 |         6 | | PHILO | | 175 | | take the fork ||
+  0   0 |         6 | | PHILO | | 175 | | eating ||
+  0   0 |         6 | | PHILO | | 177 | | take the fork ||
+  0   0 |         6 | | PHILO | | 177 | | take the fork ||
+  0   0 |         6 | | PHILO | | 177 | | eating ||
+  0   0 |         6 | | PHILO | | 179 | | take the fork ||
+  0   0 |         6 | | PHILO | | 179 | | take the fork ||
+  0   0 |         6 | | PHILO | | 179 | | eating ||
+  0   0 |         6 | | PHILO | | 181 | | take the fork ||
+  0   0 |         6 | | PHILO | | 181 | | take the fork ||
+  0   0 |         6 | | PHILO | | 181 | | eating ||
+  0   0 |         7 | | PHILO | | 183 | | take the fork ||
+  0   0 |         7 | | PHILO | | 183 | | take the fork ||
+  0   0 |         7 | | PHILO | | 183 | | eating ||
+  0   0 |         7 | | PHILO | | 185 | | take the fork ||
+  0   0 |         7 | | PHILO | | 185 | | take the fork ||
+  0   0 |         7 | | PHILO | | 185 | | eating ||
+  0   0 |         7 | | PHILO | | 187 | | take the fork ||
+  0   0 |         7 | | PHILO | | 187 | | take the fork ||
+  0   0 |         7 | | PHILO | | 187 | | eating ||
+  0   0 |         7 | | PHILO | | 189 | | take the fork ||
+  0   0 |         7 | | PHILO | | 189 | | take the fork ||
+  0   0 |         7 | | PHILO | | 189 | | eating ||
+  0   0 |         7 | | PHILO | | 191 | | take the fork ||
+  0   0 |         7 | | PHILO | | 191 | | take the fork ||
+  0   0 |         7 | | PHILO | | 191 | | eating ||
+  0   0 |         7 | | PHILO | | 193 | | take the fork ||
+  0   0 |         7 | | PHILO | | 193 | | take the fork ||
+  0   0 |         7 | | PHILO | | 193 | | eating ||
+  0   0 |         8 | | PHILO | | 195 | | take the fork ||
+  0   0 |         8 | | PHILO | | 195 | | take the fork ||
+  0   0 |         8 | | PHILO | | 195 | | eating ||
+  0   0 |         8 | | PHILO | | 197 | | take the fork ||
+  0   0 |         8 | | PHILO | | 197 | | take the fork ||
+  0   0 |         8 | | PHILO | | 197 | | eating ||
+  0   0 |         8 | | PHILO | | 199 | | take the fork ||
+  0   0 |         8 | | PHILO | | 199 | | take the fork ||
+  0   0 |         8 | | PHILO | | 199 | | eating ||
+  0   0 |       200 | | PHILO | | 23 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 3 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 4 | | take the fork ||
+  0   0 |       200 | | PHILO | | 9 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 1 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 18 | | take the fork ||
+  0   0 |       200 | | PHILO | | 7 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 8 | | take the fork ||
+  0   0 |       200 | | PHILO | | 8 | | take the fork ||
+  0   0 |       200 | | PHILO | | 8 | | eating ||
+  0   0 |       200 | | PHILO | | 14 | | take the fork ||
+  0   0 |       200 | | PHILO | | 6 | | take the fork ||
+  0   0 |       200 | | PHILO | | 14 | | take the fork ||
+  0   0 |       200 | | PHILO | | 6 | | take the fork ||
+  0   0 |       200 | | PHILO | | 22 | | take the fork ||
+  0   0 |       200 | | PHILO | | 6 | | eating ||
+  0   0 |       200 | | PHILO | | 22 | | take the fork ||
+  0   0 |       200 | | PHILO | | 12 | | take the fork ||
+  0   0 |       200 | | PHILO | | 4 | | take the fork ||
+  0   0 |       200 | | PHILO | | 12 | | take the fork ||
+  0   0 |       200 | | PHILO | | 4 | | eating ||
+  0   0 |       200 | | PHILO | | 25 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 2 | | take the fork ||
+  0   0 |       200 | | PHILO | | 16 | | take the fork ||
+  0   0 |       200 | | PHILO | | 14 | | eating ||
+  0   0 |       200 | | PHILO | | 20 | | take the fork ||
+  0   0 |       200 | | PHILO | | 10 | | take the fork ||
+  0   0 |       200 | | PHILO | | 17 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 13 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 26 | | take the fork ||
+  0   0 |       200 | | PHILO | | 15 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 11 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 28 | | take the fork ||
+  0   0 |       200 | | PHILO | | 24 | | take the fork ||
+  0   0 |       200 | | PHILO | | 24 | | take the fork ||
+  0   0 |       200 | | PHILO | | 24 | | eating ||
+  0   0 |       200 | | PHILO | | 22 | | eating ||
+  0   0 |       200 | | PHILO | | 12 | | eating ||
+  0   0 |       200 | | PHILO | | 2 | | take the fork ||
+  0   0 |       200 | | PHILO | | 2 | | eating ||
+  0   0 |       200 | | PHILO | | 19 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 21 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 20 | | take the fork ||
+  0   0 |       200 | | PHILO | | 20 | | eating ||
+  0   0 |       200 | | PHILO | | 27 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 26 | | take the fork ||
+  0   0 |       200 | | PHILO | | 26 | | eating ||
+  0   0 |       200 | | PHILO | | 18 | | take the fork ||
+  0   0 |       200 | | PHILO | | 16 | | take the fork ||
+  0   0 |       200 | | PHILO | | 10 | | take the fork ||
+  0   0 |       200 | | PHILO | | 10 | | eating ||
+  0   0 |       200 | | PHILO | | 5 | | is sleeping ||
+  0   0 |       200 | | PHILO | | 18 | | eating ||
+  0   0 |       200 | | PHILO | | 16 | | eating ||
+  0   0 |       201 | | PHILO | | 73 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 74 | | take the fork ||
+  0   0 |       201 | | PHILO | | 67 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 61 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 69 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 62 | | take the fork ||
+  0   0 |       201 | | PHILO | | 40 | | take the fork ||
+  0   0 |       201 | | PHILO | | 64 | | take the fork ||
+  0   0 |       201 | | PHILO | | 43 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 53 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 70 | | take the fork ||
+  0   0 |       201 | | PHILO | | 58 | | take the fork ||
+  0   0 |       201 | | PHILO | | 66 | | take the fork ||
+  0   0 |       201 | | PHILO | | 72 | | take the fork ||
+  0   0 |       201 | | PHILO | | 58 | | take the fork ||
+  0   0 |       201 | | PHILO | | 47 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 58 | | eating ||
+  0   0 |       201 | | PHILO | | 36 | | take the fork ||
+  0   0 |       201 | | PHILO | | 36 | | take the fork ||
+  0   0 |       201 | | PHILO | | 52 | | take the fork ||
+  0   0 |       201 | | PHILO | | 57 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 63 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 62 | | take the fork ||
+  0   0 |       201 | | PHILO | | 39 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 62 | | eating ||
+  0   0 |       201 | | PHILO | | 32 | | take the fork ||
+  0   0 |       201 | | PHILO | | 32 | | take the fork ||
+  0   0 |       201 | | PHILO | | 32 | | eating ||
+  0   0 |       201 | | PHILO | | 29 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 31 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 44 | | take the fork ||
+  0   0 |       201 | | PHILO | | 37 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 44 | | take the fork ||
+  0   0 |       201 | | PHILO | | 44 | | eating ||
+  0   0 |       201 | | PHILO | | 55 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 49 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 56 | | take the fork ||
+  0   0 |       201 | | PHILO | | 56 | | take the fork ||
+  0   0 |       201 | | PHILO | | 56 | | eating ||
+  0   0 |       201 | | PHILO | | 59 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 45 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 60 | | take the fork ||
+  0   0 |       201 | | PHILO | | 60 | | take the fork ||
+  0   0 |       201 | | PHILO | | 60 | | eating ||
+  0   0 |       201 | | PHILO | | 50 | | take the fork ||
+  0   0 |       201 | | PHILO | | 50 | | take the fork ||
+  0   0 |       201 | | PHILO | | 50 | | eating ||
+  0   0 |       201 | | PHILO | | 34 | | take the fork ||
+  0   0 |       201 | | PHILO | | 34 | | take the fork ||
+  0   0 |       201 | | PHILO | | 34 | | eating ||
+  0   0 |       201 | | PHILO | | 40 | | take the fork ||
+  0   0 |       201 | | PHILO | | 40 | | eating ||
+  0   0 |       201 | | PHILO | | 41 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 33 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 51 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 35 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 65 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 66 | | take the fork ||
+  0   0 |       201 | | PHILO | | 66 | | eating ||
+  0   0 |       201 | | PHILO | | 72 | | take the fork ||
+  0   0 |       201 | | PHILO | | 72 | | eating ||
+  0   0 |       201 | | PHILO | | 54 | | take the fork ||
+  0   0 |       201 | | PHILO | | 54 | | take the fork ||
+  0   0 |       201 | | PHILO | | 54 | | eating ||
+  0   0 |       201 | | PHILO | | 70 | | take the fork ||
+  0   0 |       201 | | PHILO | | 70 | | eating ||
+  0   0 |       201 | | PHILO | | 36 | | eating ||
+  0   0 |       201 | | PHILO | | 48 | | take the fork ||
+  0   0 |       201 | | PHILO | | 48 | | take the fork ||
+  0   0 |       201 | | PHILO | | 48 | | eating ||
+  0   0 |       201 | | PHILO | | 30 | | take the fork ||
+  0   0 |       201 | | PHILO | | 30 | | take the fork ||
+  0   0 |       201 | | PHILO | | 30 | | eating ||
+  0   0 |       201 | | PHILO | | 28 | | take the fork ||
+  0   0 |       201 | | PHILO | | 28 | | eating ||
+  0   0 |       201 | | PHILO | | 52 | | take the fork ||
+  0   0 |       201 | | PHILO | | 52 | | eating ||
+  0   0 |       201 | | PHILO | | 64 | | take the fork ||
+  0   0 |       201 | | PHILO | | 64 | | eating ||
+  0   0 |       201 | | PHILO | | 71 | | is sleeping ||
+  0   0 |       201 | | PHILO | | 68 | | take the fork ||
+  0   0 |       201 | | PHILO | | 68 | | take the fork ||
+  0   0 |       201 | | PHILO | | 68 | | eating ||
+  0   0 |       201 | | PHILO | | 42 | | take the fork ||
+  0   0 |       201 | | PHILO | | 42 | | take the fork ||
+  0   0 |       201 | | PHILO | | 42 | | eating ||
+  0   0 |       201 | | PHILO | | 46 | | take the fork ||
+  0   0 |       201 | | PHILO | | 46 | | take the fork ||
+  0   0 |       201 | | PHILO | | 46 | | eating ||
+  0   0 |       201 | | PHILO | | 38 | | take the fork ||
+  0   0 |       201 | | PHILO | | 38 | | take the fork ||
+  0   0 |       201 | | PHILO | | 38 | | eating ||
+  0   0 |       202 | | PHILO | | 93 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 88 | | take the fork ||
+  0   0 |       202 | | PHILO | | 87 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 83 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 84 | | take the fork ||
+  0   0 |       202 | | PHILO | | 81 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 84 | | take the fork ||
+  0   0 |       202 | | PHILO | | 84 | | eating ||
+  0   0 |       202 | | PHILO | | 94 | | take the fork ||
+  0   0 |       202 | | PHILO | | 106 | | take the fork ||
+  0   0 |       202 | | PHILO | | 86 | | take the fork ||
+  0   0 |       202 | | PHILO | | 85 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 77 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 101 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 82 | | take the fork ||
+  0   0 |       202 | | PHILO | | 90 | | take the fork ||
+  0   0 |       202 | | PHILO | | 91 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 78 | | take the fork ||
+  0   0 |       202 | | PHILO | | 88 | | take the fork ||
+  0   0 |       202 | | PHILO | | 100 | | take the fork ||
+  0   0 |       202 | | PHILO | | 88 | | eating ||
+  0   0 |       202 | | PHILO | | 106 | | take the fork ||
+  0   0 |       202 | | PHILO | | 76 | | take the fork ||
+  0   0 |       202 | | PHILO | | 92 | | take the fork ||
+  0   0 |       202 | | PHILO | | 107 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 92 | | take the fork ||
+  0   0 |       202 | | PHILO | | 74 | | take the fork ||
+  0   0 |       202 | | PHILO | | 92 | | eating ||
+  0   0 |       202 | | PHILO | | 97 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 100 | | take the fork ||
+  0   0 |       202 | | PHILO | | 109 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 100 | | eating ||
+  0   0 |       202 | | PHILO | | 103 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 98 | | take the fork ||
+  0   0 |       202 | | PHILO | | 79 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 110 | | take the fork ||
+  0   0 |       202 | | PHILO | | 102 | | take the fork ||
+  0   0 |       202 | | PHILO | | 74 | | eating ||
+  0   0 |       202 | | PHILO | | 102 | | take the fork ||
+  0   0 |       202 | | PHILO | | 99 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 75 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 108 | | take the fork ||
+  0   0 |       202 | | PHILO | | 96 | | take the fork ||
+  0   0 |       202 | | PHILO | | 89 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 106 | | eating ||
+  0   0 |       202 | | PHILO | | 102 | | eating ||
+  0   0 |       202 | | PHILO | | 108 | | take the fork ||
+  0   0 |       202 | | PHILO | | 98 | | take the fork ||
+  0   0 |       202 | | PHILO | | 108 | | eating ||
+  0   0 |       202 | | PHILO | | 104 | | take the fork ||
+  0   0 |       202 | | PHILO | | 96 | | take the fork ||
+  0   0 |       202 | | PHILO | | 104 | | take the fork ||
+  0   0 |       202 | | PHILO | | 96 | | eating ||
+  0   0 |       202 | | PHILO | | 82 | | take the fork ||
+  0   0 |       202 | | PHILO | | 94 | | take the fork ||
+  0   0 |       202 | | PHILO | | 86 | | take the fork ||
+  0   0 |       202 | | PHILO | | 82 | | eating ||
+  0   0 |       202 | | PHILO | | 76 | | take the fork ||
+  0   0 |       202 | | PHILO | | 86 | | eating ||
+  0   0 |       202 | | PHILO | | 98 | | eating ||
+  0   0 |       202 | | PHILO | | 80 | | take the fork ||
+  0   0 |       202 | | PHILO | | 95 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 80 | | take the fork ||
+  0   0 |       202 | | PHILO | | 80 | | eating ||
+  0   0 |       202 | | PHILO | | 104 | | eating ||
+  0   0 |       202 | | PHILO | | 90 | | take the fork ||
+  0   0 |       202 | | PHILO | | 90 | | eating ||
+  0   0 |       202 | | PHILO | | 78 | | take the fork ||
+  0   0 |       202 | | PHILO | | 78 | | eating ||
+  0   0 |       202 | | PHILO | | 94 | | eating ||
+  0   0 |       202 | | PHILO | | 105 | | is sleeping ||
+  0   0 |       202 | | PHILO | | 76 | | eating ||
+  0   0 |       203 | | PHILO | | 125 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 126 | | take the fork ||
+  0   0 |       203 | | PHILO | | 121 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 115 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 136 | | take the fork ||
+  0   0 |       203 | | PHILO | | 112 | | take the fork ||
+  0   0 |       203 | | PHILO | | 116 | | take the fork ||
+  0   0 |       203 | | PHILO | | 131 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 135 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 132 | | take the fork ||
+  0   0 |       203 | | PHILO | | 128 | | take the fork ||
+  0   0 |       203 | | PHILO | | 126 | | take the fork ||
+  0   0 |       203 | | PHILO | | 126 | | eating ||
+  0   0 |       203 | | PHILO | | 110 | | take the fork ||
+  0   0 |       203 | | PHILO | | 110 | | eating ||
+  0   0 |       203 | | PHILO | | 133 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 134 | | take the fork ||
+  0   0 |       203 | | PHILO | | 134 | | take the fork ||
+  0   0 |       203 | | PHILO | | 134 | | eating ||
+  0   0 |       203 | | PHILO | | 120 | | take the fork ||
+  0   0 |       203 | | PHILO | | 120 | | take the fork ||
+  0   0 |       203 | | PHILO | | 120 | | eating ||
+  0   0 |       203 | | PHILO | | 119 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 111 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 124 | | take the fork ||
+  0   0 |       203 | | PHILO | | 118 | | take the fork ||
+  0   0 |       203 | | PHILO | | 118 | | take the fork ||
+  0   0 |       203 | | PHILO | | 123 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 116 | | take the fork ||
+  0   0 |       203 | | PHILO | | 118 | | eating ||
+  0   0 |       203 | | PHILO | | 122 | | take the fork ||
+  0   0 |       203 | | PHILO | | 124 | | take the fork ||
+  0   0 |       203 | | PHILO | | 122 | | take the fork ||
+  0   0 |       203 | | PHILO | | 124 | | eating ||
+  0   0 |       203 | | PHILO | | 130 | | take the fork ||
+  0   0 |       203 | | PHILO | | 130 | | take the fork ||
+  0   0 |       203 | | PHILO | | 130 | | eating ||
+  0   0 |       203 | | PHILO | | 117 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 122 | | eating ||
+  0   0 |       203 | | PHILO | | 132 | | take the fork ||
+  0   0 |       203 | | PHILO | | 116 | | eating ||
+  0   0 |       203 | | PHILO | | 128 | | take the fork ||
+  0   0 |       203 | | PHILO | | 112 | | take the fork ||
+  0   0 |       203 | | PHILO | | 128 | | eating ||
+  0   0 |       203 | | PHILO | | 112 | | eating ||
+  0   0 |       203 | | PHILO | | 132 | | eating ||
+  0   0 |       203 | | PHILO | | 127 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 114 | | take the fork ||
+  0   0 |       203 | | PHILO | | 114 | | take the fork ||
+  0   0 |       203 | | PHILO | | 114 | | eating ||
+  0   0 |       203 | | PHILO | | 113 | | is sleeping ||
+  0   0 |       203 | | PHILO | | 129 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 145 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 151 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 155 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 146 | | take the fork ||
+  0   0 |       204 | | PHILO | | 152 | | take the fork ||
+  0   0 |       204 | | PHILO | | 141 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 156 | | take the fork ||
+  0   0 |       204 | | PHILO | | 143 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 142 | | take the fork ||
+  0   0 |       204 | | PHILO | | 142 | | take the fork ||
+  0   0 |       204 | | PHILO | | 142 | | eating ||
+  0   0 |       204 | | PHILO | | 144 | | take the fork ||
+  0   0 |       204 | | PHILO | | 144 | | take the fork ||
+  0   0 |       204 | | PHILO | | 144 | | eating ||
+  0   0 |       204 | | PHILO | | 147 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 139 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 148 | | take the fork ||
+  0   0 |       204 | | PHILO | | 146 | | take the fork ||
+  0   0 |       204 | | PHILO | | 146 | | eating ||
+  0   0 |       204 | | PHILO | | 150 | | take the fork ||
+  0   0 |       204 | | PHILO | | 150 | | take the fork ||
+  0   0 |       204 | | PHILO | | 150 | | eating ||
+  0   0 |       204 | | PHILO | | 154 | | take the fork ||
+  0   0 |       204 | | PHILO | | 154 | | take the fork ||
+  0   0 |       204 | | PHILO | | 154 | | eating ||
+  0   0 |       204 | | PHILO | | 138 | | take the fork ||
+  0   0 |       204 | | PHILO | | 138 | | take the fork ||
+  0   0 |       204 | | PHILO | | 138 | | eating ||
+  0   0 |       204 | | PHILO | | 153 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 152 | | take the fork ||
+  0   0 |       204 | | PHILO | | 136 | | take the fork ||
+  0   0 |       204 | | PHILO | | 140 | | take the fork ||
+  0   0 |       204 | | PHILO | | 140 | | take the fork ||
+  0   0 |       204 | | PHILO | | 140 | | eating ||
+  0   0 |       204 | | PHILO | | 137 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 148 | | take the fork ||
+  0   0 |       204 | | PHILO | | 148 | | eating ||
+  0   0 |       204 | | PHILO | | 136 | | eating ||
+  0   0 |       204 | | PHILO | | 149 | | is sleeping ||
+  0   0 |       204 | | PHILO | | 152 | | eating ||
+  0   0 |       205 | | PHILO | | 159 | | is sleeping ||
+  0   0 |       205 | | PHILO | | 160 | | take the fork ||
+  0   0 |       205 | | PHILO | | 160 | | take the fork ||
+  0   0 |       205 | | PHILO | | 160 | | eating ||
+  0   0 |       205 | | PHILO | | 157 | | is sleeping ||
+  0   0 |       205 | | PHILO | | 158 | | take the fork ||
+  0   0 |       205 | | PHILO | | 168 | | take the fork ||
+  0   0 |       205 | | PHILO | | 158 | | take the fork ||
+  0   0 |       205 | | PHILO | | 158 | | eating ||
+  0   0 |       205 | | PHILO | | 156 | | take the fork ||
+  0   0 |       205 | | PHILO | | 156 | | eating ||
+  0   0 |       205 | | PHILO | | 164 | | take the fork ||
+  0   0 |       205 | | PHILO | | 164 | | take the fork ||
+  0   0 |       205 | | PHILO | | 164 | | eating ||
+  0   0 |       205 | | PHILO | | 162 | | take the fork ||
+  0   0 |       205 | | PHILO | | 161 | | is sleeping ||
+  0   0 |       205 | | PHILO | | 163 | | is sleeping ||
+  0   0 |       205 | | PHILO | | 166 | | take the fork ||
+  0   0 |       205 | | PHILO | | 166 | | take the fork ||
+  0   0 |       205 | | PHILO | | 166 | | eating ||
+  0   0 |       205 | | PHILO | | 172 | | take the fork ||
+  0   0 |       205 | | PHILO | | 168 | | take the fork ||
+  0   0 |       205 | | PHILO | | 168 | | eating ||
+  0   0 |       205 | | PHILO | | 165 | | is sleeping ||
+  0   0 |       205 | | PHILO | | 162 | | take the fork ||
+  0   0 |       205 | | PHILO | | 167 | | is sleeping ||
+  0   0 |       205 | | PHILO | | 170 | | take the fork ||
+  0   0 |       205 | | PHILO | | 170 | | take the fork ||
+  0   0 |       205 | | PHILO | | 170 | | eating ||
+  0   0 |       205 | | PHILO | | 162 | | eating ||
+  0   0 |       205 | | PHILO | | 171 | | is sleeping ||
+  0   0 |       205 | | PHILO | | 169 | | is sleeping ||
+  0   0 |       206 | | PHILO | | 180 | | take the fork ||
+  0   0 |       206 | | PHILO | | 176 | | take the fork ||
+  0   0 |       206 | | PHILO | | 175 | | is sleeping ||
+  0   0 |       206 | | PHILO | | 179 | | is sleeping ||
+  0   0 |       206 | | PHILO | | 174 | | take the fork ||
+  0   0 |       206 | | PHILO | | 174 | | take the fork ||
+  0   0 |       206 | | PHILO | | 174 | | eating ||
+  0   0 |       206 | | PHILO | | 173 | | is sleeping ||
+  0   0 |       206 | | PHILO | | 172 | | take the fork ||
+  0   0 |       206 | | PHILO | | 172 | | eating ||
+  0   0 |       206 | | PHILO | | 178 | | take the fork ||
+  0   0 |       206 | | PHILO | | 177 | | is sleeping ||
+  0   0 |       206 | | PHILO | | 178 | | take the fork ||
+  0   0 |       206 | | PHILO | | 178 | | eating ||
+  0   0 |       206 | | PHILO | | 176 | | take the fork ||
+  0   0 |       206 | | PHILO | | 176 | | eating ||
+  0   0 |       206 | | PHILO | | 182 | | take the fork ||
+  0   0 |       206 | | PHILO | | 180 | | take the fork ||
+  0   0 |       206 | | PHILO | | 180 | | eating ||
+  0   0 |       206 | | PHILO | | 181 | | is sleeping ||
+  0   0 |       207 | | PHILO | | 191 | | is sleeping ||
+  0   0 |       207 | | PHILO | | 184 | | take the fork ||
+  0   0 |       207 | | PHILO | | 182 | | take the fork ||
+  0   0 |       207 | | PHILO | | 182 | | eating ||
+  0   0 |       207 | | PHILO | | 183 | | is sleeping ||
+  0   0 |       207 | | PHILO | | 189 | | is sleeping ||
+  0   0 |       207 | | PHILO | | 187 | | is sleeping ||
+  0   0 |       207 | | PHILO | | 188 | | take the fork ||
+  0   0 |       207 | | PHILO | | 190 | | take the fork ||
+  0   0 |       207 | | PHILO | | 190 | | take the fork ||
+  0   0 |       207 | | PHILO | | 190 | | eating ||
+  0   0 |       207 | | PHILO | | 188 | | take the fork ||
+  0   0 |       207 | | PHILO | | 188 | | eating ||
+  0   0 |       207 | | PHILO | | 192 | | take the fork ||
+  0   0 |       207 | | PHILO | | 184 | | take the fork ||
+  0   0 |       207 | | PHILO | | 184 | | eating ||
+  0   0 |       207 | | PHILO | | 186 | | take the fork ||
+  0   0 |       207 | | PHILO | | 186 | | take the fork ||
+  0   0 |       207 | | PHILO | | 186 | | eating ||
+  0   0 |       207 | | PHILO | | 185 | | is sleeping ||
+  0   0 |       207 | | PHILO | | 194 | | take the fork ||
+  0   0 |       207 | | PHILO | | 193 | | is sleeping ||
+  0   0 |       207 | | PHILO | | 192 | | take the fork ||
+  0   0 |       207 | | PHILO | | 192 | | eating ||
+  0   0 |       208 | | PHILO | | 199 | | is sleeping ||
+  0   0 |       208 | | PHILO | | 195 | | is sleeping ||
+  0   0 |       208 | | PHILO | | 194 | | take the fork ||
+  0   0 |       208 | | PHILO | | 197 | | is sleeping ||
+  0   0 |       208 | | PHILO | | 198 | | take the fork ||
+  0   0 |       208 | | PHILO | | 198 | | take the fork ||
+  0   0 |       208 | | PHILO | | 198 | | eating ||
+  0   0 |       208 | | PHILO | | 194 | | eating ||
+  0   0 |       208 | | PHILO | | 196 | | take the fork ||
+  0   0 |       208 | | PHILO | | 196 | | take the fork ||
+  0   0 |       208 | | PHILO | | 196 | | eating ||
+  0   0 |       208 | | PHILO | | 200 | | take the fork ||
+  0   0 |       208 | | PHILO | | 200 | | take the fork ||
+  0   0 |       208 | | PHILO | | 200 | | eating ||
+  0   0 |       300 | | PHILO | | 9 | | is thinking ||
+  0   0 |       300 | | PHILO | | 23 | | is thinking ||
+  0   0 |       300 | | PHILO | | 21 | | is thinking ||
+  0   0 |       300 | | PHILO | | 13 | | is thinking ||
+  0   0 |       300 | | PHILO | | 7 | | is thinking ||
+  0   0 |       300 | | PHILO | | 17 | | is thinking ||
+  0   0 |       300 | | PHILO | | 11 | | is thinking ||
+  0   0 |       300 | | PHILO | | 3 | | is thinking ||
+  0   0 |       300 | | PHILO | | 19 | | is thinking ||
+  0   0 |       300 | | PHILO | | 5 | | is thinking ||
+  0   0 |       300 | | PHILO | | 15 | | is thinking ||
+  0   0 |       300 | | PHILO | | 1 | | is thinking ||
+  0   0 |       300 | | PHILO | | 27 | | is thinking ||
+  0   0 |       300 | | PHILO | | 25 | | is thinking ||
+  0   0 |       301 | | PHILO | | 69 | | is thinking ||
+  0   0 |       301 | | PHILO | | 43 | | is thinking ||
+  0   0 |       301 | | PHILO | | 67 | | is thinking ||
+  0   0 |       301 | | PHILO | | 63 | | is thinking ||
+  0   0 |       301 | | PHILO | | 33 | | is thinking ||
+  0   0 |       301 | | PHILO | | 71 | | is thinking ||
+  0   0 |       301 | | PHILO | | 65 | | is thinking ||
+  0   0 |       301 | | PHILO | | 35 | | is thinking ||
+  0   0 |       301 | | PHILO | | 47 | | is thinking ||
+  0   0 |       301 | | PHILO | | 37 | | is thinking ||
+  0   0 |       301 | | PHILO | | 51 | | is thinking ||
+  0   0 |       301 | | PHILO | | 73 | | is thinking ||
+  0   0 |       301 | | PHILO | | 59 | | is thinking ||
+  0   0 |       301 | | PHILO | | 57 | | is thinking ||
+  0   0 |       301 | | PHILO | | 53 | | is thinking ||
+  0   0 |       301 | | PHILO | | 45 | | is thinking ||
+  0   0 |       301 | | PHILO | | 55 | | is thinking ||
+  0   0 |       301 | | PHILO | | 41 | | is thinking ||
+  0   0 |       301 | | PHILO | | 31 | | is thinking ||
+  0   0 |       301 | | PHILO | | 29 | | is thinking ||
+  0   0 |       301 | | PHILO | | 49 | | is thinking ||
+  0   0 |       301 | | PHILO | | 61 | | is thinking ||
+  0   0 |       301 | | PHILO | | 39 | | is thinking ||
+  0   0 |       302 | | PHILO | | 95 | | is thinking ||
+  0   0 |       302 | | PHILO | | 83 | | is thinking ||
+  0   0 |       302 | | PHILO | | 87 | | is thinking ||
+  0   0 |       302 | | PHILO | | 75 | | is thinking ||
+  0   0 |       302 | | PHILO | | 99 | | is thinking ||
+  0   0 |       302 | | PHILO | | 89 | | is thinking ||
+  0   0 |       302 | | PHILO | | 79 | | is thinking ||
+  0   0 |       302 | | PHILO | | 85 | | is thinking ||
+  0   0 |       302 | | PHILO | | 101 | | is thinking ||
+  0   0 |       302 | | PHILO | | 93 | | is thinking ||
+  0   0 |       302 | | PHILO | | 77 | | is thinking ||
+  0   0 |       302 | | PHILO | | 103 | | is thinking ||
+  0   0 |       302 | | PHILO | | 105 | | is thinking ||
+  0   0 |       302 | | PHILO | | 81 | | is thinking ||
+  0   0 |       302 | | PHILO | | 97 | | is thinking ||
+  0   0 |       302 | | PHILO | | 109 | | is thinking ||
+  0   0 |       302 | | PHILO | | 107 | | is thinking ||
+  0   0 |       302 | | PHILO | | 91 | | is thinking ||
+  0   0 |       303 | | PHILO | | 131 | | is thinking ||
+  0   0 |       303 | | PHILO | | 123 | | is thinking ||
+  0   0 |       303 | | PHILO | | 113 | | is thinking ||
+  0   0 |       303 | | PHILO | | 111 | | is thinking ||
+  0   0 |       303 | | PHILO | | 125 | | is thinking ||
+  0   0 |       303 | | PHILO | | 135 | | is thinking ||
+  0   0 |       303 | | PHILO | | 117 | | is thinking ||
+  0   0 |       303 | | PHILO | | 119 | | is thinking ||
+  0   0 |       303 | | PHILO | | 133 | | is thinking ||
+  0   0 |       303 | | PHILO | | 127 | | is thinking ||
+  0   0 |       303 | | PHILO | | 121 | | is thinking ||
+  0   0 |       303 | | PHILO | | 129 | | is thinking ||
+  0   0 |       303 | | PHILO | | 115 | | is thinking ||
+  0   0 |       304 | | PHILO | | 147 | | is thinking ||
+  0   0 |       304 | | PHILO | | 153 | | is thinking ||
+  0   0 |       304 | | PHILO | | 151 | | is thinking ||
+  0   0 |       304 | | PHILO | | 137 | | is thinking ||
+  0   0 |       304 | | PHILO | | 143 | | is thinking ||
+  0   0 |       304 | | PHILO | | 139 | | is thinking ||
+  0   0 |       304 | | PHILO | | 149 | | is thinking ||
+  0   0 |       304 | | PHILO | | 141 | | is thinking ||
+  0   0 |       304 | | PHILO | | 155 | | is thinking ||
+  0   0 |       304 | | PHILO | | 145 | | is thinking ||
+  0   0 |       305 | | PHILO | | 161 | | is thinking ||
+  0   0 |       305 | | PHILO | | 165 | | is thinking ||
+  0   0 |       305 | | PHILO | | 157 | | is thinking ||
+  0   0 |       305 | | PHILO | | 163 | | is thinking ||
+  0   0 |       305 | | PHILO | | 169 | | is thinking ||
+  0   0 |       305 | | PHILO | | 171 | | is thinking ||
+  0   0 |       305 | | PHILO | | 159 | | is thinking ||
+  0   0 |       305 | | PHILO | | 167 | | is thinking ||
+  0   0 |       306 | | PHILO | | 179 | | is thinking ||
+  0   0 |       306 | | PHILO | | 181 | | is thinking ||
+  0   0 |       306 | | PHILO | | 177 | | is thinking ||
+  0   0 |       306 | | PHILO | | 173 | | is thinking ||
+  0   0 |       306 | | PHILO | | 175 | | is thinking ||
+  0   0 |       307 | | PHILO | | 185 | | is thinking ||
+  0   0 |       307 | | PHILO | | 183 | | is thinking ||
+  0   0 |       307 | | PHILO | | 189 | | is thinking ||
+  0   0 |       307 | | PHILO | | 191 | | is thinking ||
+  0   0 |       307 | | PHILO | | 187 | | is thinking ||
+  0   0 |       307 | | PHILO | | 193 | | is thinking ||
+  0   0 |       308 | | PHILO | | 195 | | is thinking ||
+  0   0 |       308 | | PHILO | | 197 | | is thinking ||
+  0   0 |       308 | | PHILO | | 199 | | is thinking ||
+  0   0 |       400 | | PHILO | | 18 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 15 | | take the fork ||
+  1   0 |       400 | | PHILO | | 15 | | take the fork ||
+  1   0 |       400 | | PHILO | | 15 | | eating ||
+  1   0 |       400 | | PHILO | | 11 | | take the fork ||
+  1   0 |       400 | | PHILO | | 11 | | take the fork ||
+  1   0 |       400 | | PHILO | | 11 | | eating ||
+  1   0 |       400 | | PHILO | | 2 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 10 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 3 | | take the fork ||
+  1   0 |       400 | | PHILO | | 3 | | take the fork ||
+  1   0 |       400 | | PHILO | | 3 | | eating ||
+  1   0 |       400 | | PHILO | | 19 | | take the fork ||
+  1   0 |       400 | | PHILO | | 19 | | take the fork ||
+  1   0 |       400 | | PHILO | | 19 | | eating ||
+  1   0 |       400 | | PHILO | | 26 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 24 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 27 | | take the fork ||
+  1   0 |       400 | | PHILO | | 16 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 6 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 4 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 20 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 5 | | take the fork ||
+  1   0 |       400 | | PHILO | | 5 | | take the fork ||
+  1   0 |       400 | | PHILO | | 5 | | eating ||
+  1   0 |       400 | | PHILO | | 7 | | take the fork ||
+  1   0 |       400 | | PHILO | | 7 | | take the fork ||
+  1   0 |       400 | | PHILO | | 7 | | eating ||
+  1   0 |       400 | | PHILO | | 21 | | take the fork ||
+  1   0 |       400 | | PHILO | | 21 | | take the fork ||
+  1   0 |       400 | | PHILO | | 21 | | eating ||
+  1   0 |       400 | | PHILO | | 8 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 22 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 12 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 25 | | take the fork ||
+  1   0 |       400 | | PHILO | | 13 | | take the fork ||
+  1   0 |       400 | | PHILO | | 13 | | take the fork ||
+  1   0 |       400 | | PHILO | | 13 | | eating ||
+  1   0 |       400 | | PHILO | | 23 | | take the fork ||
+  1   0 |       400 | | PHILO | | 23 | | take the fork ||
+  1   0 |       400 | | PHILO | | 23 | | eating ||
+  1   0 |       400 | | PHILO | | 17 | | take the fork ||
+  1   0 |       400 | | PHILO | | 17 | | take the fork ||
+  1   0 |       400 | | PHILO | | 17 | | eating ||
+  1   0 |       400 | | PHILO | | 14 | | is sleeping ||
+  0   0 |       400 | | PHILO | | 9 | | take the fork ||
+  1   0 |       400 | | PHILO | | 9 | | take the fork ||
+  1   0 |       400 | | PHILO | | 9 | | eating ||
+  1   0 |       400 | | PHILO | | 25 | | take the fork ||
+  1   0 |       400 | | PHILO | | 25 | | eating ||
+  1   0 |       401 | | PHILO | | 72 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 58 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 52 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 54 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 28 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 29 | | take the fork ||
+  1   0 |       401 | | PHILO | | 38 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 42 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 27 | | take the fork ||
+  1   0 |       401 | | PHILO | | 68 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 27 | | eating ||
+  1   0 |       401 | | PHILO | | 59 | | take the fork ||
+  1   0 |       401 | | PHILO | | 35 | | take the fork ||
+  1   0 |       401 | | PHILO | | 59 | | take the fork ||
+  1   0 |       401 | | PHILO | | 62 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 40 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 66 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 69 | | take the fork ||
+  1   0 |       401 | | PHILO | | 44 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 69 | | take the fork ||
+  1   0 |       401 | | PHILO | | 57 | | take the fork ||
+  1   0 |       401 | | PHILO | | 45 | | take the fork ||
+  1   0 |       401 | | PHILO | | 61 | | take the fork ||
+  1   0 |       401 | | PHILO | | 36 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 37 | | take the fork ||
+  1   0 |       401 | | PHILO | | 37 | | take the fork ||
+  1   0 |       401 | | PHILO | | 37 | | eating ||
+  1   0 |       401 | | PHILO | | 48 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 49 | | take the fork ||
+  1   0 |       401 | | PHILO | | 49 | | take the fork ||
+  1   0 |       401 | | PHILO | | 49 | | eating ||
+  1   0 |       401 | | PHILO | | 60 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 33 | | take the fork ||
+  1   0 |       401 | | PHILO | | 33 | | take the fork ||
+  1   0 |       401 | | PHILO | | 33 | | eating ||
+  1   0 |       401 | | PHILO | | 39 | | take the fork ||
+  1   0 |       401 | | PHILO | | 39 | | take the fork ||
+  1   0 |       401 | | PHILO | | 39 | | eating ||
+  1   0 |       401 | | PHILO | | 59 | | eating ||
+  1   0 |       401 | | PHILO | | 46 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 53 | | take the fork ||
+  1   0 |       401 | | PHILO | | 53 | | take the fork ||
+  1   0 |       401 | | PHILO | | 53 | | eating ||
+  1   0 |       401 | | PHILO | | 43 | | take the fork ||
+  1   0 |       401 | | PHILO | | 43 | | take the fork ||
+  1   0 |       401 | | PHILO | | 43 | | eating ||
+  1   0 |       401 | | PHILO | | 47 | | take the fork ||
+  1   0 |       401 | | PHILO | | 47 | | take the fork ||
+  1   0 |       401 | | PHILO | | 47 | | eating ||
+  1   0 |       401 | | PHILO | | 34 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 57 | | take the fork ||
+  1   0 |       401 | | PHILO | | 57 | | eating ||
+  1   0 |       401 | | PHILO | | 50 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 51 | | take the fork ||
+  1   0 |       401 | | PHILO | | 51 | | take the fork ||
+  1   0 |       401 | | PHILO | | 51 | | eating ||
+  1   0 |       401 | | PHILO | | 45 | | take the fork ||
+  1   0 |       401 | | PHILO | | 45 | | eating ||
+  1   0 |       401 | | PHILO | | 70 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 61 | | take the fork ||
+  1   0 |       401 | | PHILO | | 61 | | eating ||
+  1   0 |       401 | | PHILO | | 69 | | eating ||
+  1   0 |       401 | | PHILO | | 55 | | take the fork ||
+  1   0 |       401 | | PHILO | | 55 | | take the fork ||
+  1   0 |       401 | | PHILO | | 55 | | eating ||
+  1   0 |       401 | | PHILO | | 35 | | take the fork ||
+  1   0 |       401 | | PHILO | | 35 | | eating ||
+  1   0 |       401 | | PHILO | | 73 | | take the fork ||
+  1   0 |       401 | | PHILO | | 32 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 56 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 30 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 63 | | take the fork ||
+  1   0 |       401 | | PHILO | | 63 | | take the fork ||
+  1   0 |       401 | | PHILO | | 63 | | eating ||
+  1   0 |       401 | | PHILO | | 65 | | take the fork ||
+  1   0 |       401 | | PHILO | | 65 | | take the fork ||
+  1   0 |       401 | | PHILO | | 65 | | eating ||
+  1   0 |       401 | | PHILO | | 71 | | take the fork ||
+  1   0 |       401 | | PHILO | | 71 | | take the fork ||
+  1   0 |       401 | | PHILO | | 71 | | eating ||
+  1   0 |       401 | | PHILO | | 67 | | take the fork ||
+  1   0 |       401 | | PHILO | | 67 | | take the fork ||
+  1   0 |       401 | | PHILO | | 67 | | eating ||
+  1   0 |       401 | | PHILO | | 29 | | take the fork ||
+  1   0 |       401 | | PHILO | | 29 | | eating ||
+  1   0 |       401 | | PHILO | | 41 | | take the fork ||
+  1   0 |       401 | | PHILO | | 41 | | take the fork ||
+  1   0 |       401 | | PHILO | | 41 | | eating ||
+  1   0 |       401 | | PHILO | | 64 | | is sleeping ||
+  0   0 |       401 | | PHILO | | 31 | | take the fork ||
+  1   0 |       401 | | PHILO | | 31 | | take the fork ||
+  1   0 |       401 | | PHILO | | 31 | | eating ||
+  1   0 |       402 | | PHILO | | 96 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 106 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 107 | | take the fork ||
+  1   0 |       402 | | PHILO | | 104 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 105 | | take the fork ||
+  1   0 |       402 | | PHILO | | 105 | | take the fork ||
+  1   0 |       402 | | PHILO | | 93 | | take the fork ||
+  1   0 |       402 | | PHILO | | 76 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 85 | | take the fork ||
+  1   0 |       402 | | PHILO | | 92 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 85 | | take the fork ||
+  1   0 |       402 | | PHILO | | 85 | | eating ||
+  1   0 |       402 | | PHILO | | 100 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 73 | | take the fork ||
+  1   0 |       402 | | PHILO | | 73 | | eating ||
+  1   0 |       402 | | PHILO | | 91 | | take the fork ||
+  1   0 |       402 | | PHILO | | 89 | | take the fork ||
+  1   0 |       402 | | PHILO | | 82 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 99 | | take the fork ||
+  1   0 |       402 | | PHILO | | 107 | | take the fork ||
+  1   0 |       402 | | PHILO | | 107 | | eating ||
+  1   0 |       402 | | PHILO | | 83 | | take the fork ||
+  1   0 |       402 | | PHILO | | 83 | | take the fork ||
+  1   0 |       402 | | PHILO | | 83 | | eating ||
+  1   0 |       402 | | PHILO | | 79 | | take the fork ||
+  1   0 |       402 | | PHILO | | 79 | | take the fork ||
+  1   0 |       402 | | PHILO | | 79 | | eating ||
+  1   0 |       402 | | PHILO | | 102 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 80 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 101 | | take the fork ||
+  1   0 |       402 | | PHILO | | 101 | | take the fork ||
+  1   0 |       402 | | PHILO | | 101 | | eating ||
+  1   0 |       402 | | PHILO | | 109 | | take the fork ||
+  1   0 |       402 | | PHILO | | 87 | | take the fork ||
+  1   0 |       402 | | PHILO | | 87 | | take the fork ||
+  1   0 |       402 | | PHILO | | 87 | | eating ||
+  1   0 |       402 | | PHILO | | 95 | | take the fork ||
+  1   0 |       402 | | PHILO | | 95 | | take the fork ||
+  1   0 |       402 | | PHILO | | 95 | | eating ||
+  1   0 |       402 | | PHILO | | 94 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 93 | | take the fork ||
+  1   0 |       402 | | PHILO | | 93 | | eating ||
+  1   0 |       402 | | PHILO | | 81 | | take the fork ||
+  1   0 |       402 | | PHILO | | 81 | | take the fork ||
+  1   0 |       402 | | PHILO | | 81 | | eating ||
+  1   0 |       402 | | PHILO | | 105 | | eating ||
+  1   0 |       402 | | PHILO | | 74 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 90 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 86 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 91 | | take the fork ||
+  1   0 |       402 | | PHILO | | 91 | | eating ||
+  1   0 |       402 | | PHILO | | 88 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 108 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 89 | | take the fork ||
+  1   0 |       402 | | PHILO | | 89 | | eating ||
+  1   0 |       402 | | PHILO | | 99 | | take the fork ||
+  1   0 |       402 | | PHILO | | 99 | | eating ||
+  1   0 |       402 | | PHILO | | 98 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 97 | | take the fork ||
+  1   0 |       402 | | PHILO | | 97 | | take the fork ||
+  1   0 |       402 | | PHILO | | 97 | | eating ||
+  1   0 |       402 | | PHILO | | 84 | | is sleeping ||
+  0   0 |       402 | | PHILO | | 103 | | take the fork ||
+  1   0 |       402 | | PHILO | | 103 | | take the fork ||
+  1   0 |       402 | | PHILO | | 103 | | eating ||
+  1   0 |       402 | | PHILO | | 75 | | take the fork ||
+  1   0 |       402 | | PHILO | | 75 | | take the fork ||
+  1   0 |       402 | | PHILO | | 75 | | eating ||
+  1   0 |       402 | | PHILO | | 77 | | take the fork ||
+  1   0 |       402 | | PHILO | | 77 | | take the fork ||
+  1   0 |       402 | | PHILO | | 77 | | eating ||
+  1   0 |       402 | | PHILO | | 78 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 130 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 131 | | take the fork ||
+  1   0 |       403 | | PHILO | | 131 | | take the fork ||
+  1   0 |       403 | | PHILO | | 131 | | eating ||
+  1   0 |       403 | | PHILO | | 120 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 133 | | take the fork ||
+  1   0 |       403 | | PHILO | | 126 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 128 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 124 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 122 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 129 | | take the fork ||
+  1   0 |       403 | | PHILO | | 129 | | take the fork ||
+  1   0 |       403 | | PHILO | | 129 | | eating ||
+  1   0 |       403 | | PHILO | | 127 | | take the fork ||
+  1   0 |       403 | | PHILO | | 117 | | take the fork ||
+  1   0 |       403 | | PHILO | | 127 | | take the fork ||
+  1   0 |       403 | | PHILO | | 127 | | eating ||
+  1   0 |       403 | | PHILO | | 133 | | take the fork ||
+  1   0 |       403 | | PHILO | | 117 | | take the fork ||
+  1   0 |       403 | | PHILO | | 133 | | eating ||
+  1   0 |       403 | | PHILO | | 114 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 118 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 113 | | take the fork ||
+  1   0 |       403 | | PHILO | | 119 | | take the fork ||
+  1   0 |       403 | | PHILO | | 119 | | take the fork ||
+  1   0 |       403 | | PHILO | | 119 | | eating ||
+  1   0 |       403 | | PHILO | | 134 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 112 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 111 | | take the fork ||
+  1   0 |       403 | | PHILO | | 111 | | take the fork ||
+  1   0 |       403 | | PHILO | | 135 | | take the fork ||
+  1   0 |       403 | | PHILO | | 123 | | take the fork ||
+  1   0 |       403 | | PHILO | | 123 | | take the fork ||
+  1   0 |       403 | | PHILO | | 123 | | eating ||
+  1   0 |       403 | | PHILO | | 115 | | take the fork ||
+  1   0 |       403 | | PHILO | | 115 | | take the fork ||
+  1   0 |       403 | | PHILO | | 115 | | eating ||
+  1   0 |       403 | | PHILO | | 117 | | eating ||
+  1   0 |       403 | | PHILO | | 125 | | take the fork ||
+  1   0 |       403 | | PHILO | | 125 | | take the fork ||
+  1   0 |       403 | | PHILO | | 125 | | eating ||
+  1   0 |       403 | | PHILO | | 110 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 113 | | take the fork ||
+  1   0 |       403 | | PHILO | | 113 | | eating ||
+  1   0 |       403 | | PHILO | | 132 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 116 | | is sleeping ||
+  0   0 |       403 | | PHILO | | 109 | | take the fork ||
+  1   0 |       403 | | PHILO | | 109 | | eating ||
+  1   0 |       403 | | PHILO | | 111 | | eating ||
+  1   0 |       403 | | PHILO | | 121 | | take the fork ||
+  1   0 |       403 | | PHILO | | 121 | | take the fork ||
+  1   0 |       403 | | PHILO | | 121 | | eating ||
+  1   0 |       404 | | PHILO | | 142 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 143 | | take the fork ||
+  1   0 |       404 | | PHILO | | 147 | | take the fork ||
+  1   0 |       404 | | PHILO | | 143 | | take the fork ||
+  1   0 |       404 | | PHILO | | 143 | | eating ||
+  1   0 |       404 | | PHILO | | 140 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 152 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 136 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 148 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 137 | | take the fork ||
+  1   0 |       404 | | PHILO | | 151 | | take the fork ||
+  1   0 |       404 | | PHILO | | 138 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 151 | | take the fork ||
+  1   0 |       404 | | PHILO | | 151 | | eating ||
+  1   0 |       404 | | PHILO | | 144 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 141 | | take the fork ||
+  1   0 |       404 | | PHILO | | 145 | | take the fork ||
+  1   0 |       404 | | PHILO | | 141 | | take the fork ||
+  1   0 |       404 | | PHILO | | 141 | | eating ||
+  1   0 |       404 | | PHILO | | 153 | | take the fork ||
+  1   0 |       404 | | PHILO | | 147 | | take the fork ||
+  1   0 |       404 | | PHILO | | 147 | | eating ||
+  1   0 |       404 | | PHILO | | 150 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 154 | | is sleeping ||
+  0   0 |       404 | | PHILO | | 153 | | take the fork ||
+  1   0 |       404 | | PHILO | | 153 | | eating ||
+  1   0 |       404 | | PHILO | | 139 | | take the fork ||
+  1   0 |       404 | | PHILO | | 139 | | take the fork ||
+  1   0 |       404 | | PHILO | | 139 | | eating ||
+  1   0 |       404 | | PHILO | | 135 | | take the fork ||
+  1   0 |       404 | | PHILO | | 135 | | eating ||
+  1   0 |       404 | | PHILO | | 149 | | take the fork ||
+  1   0 |       404 | | PHILO | | 149 | | take the fork ||
+  1   0 |       404 | | PHILO | | 149 | | eating ||
+  1   0 |       404 | | PHILO | | 145 | | take the fork ||
+  1   0 |       404 | | PHILO | | 145 | | eating ||
+  1   0 |       404 | | PHILO | | 155 | | take the fork ||
+  1   0 |       404 | | PHILO | | 137 | | take the fork ||
+  1   0 |       404 | | PHILO | | 137 | | eating ||
+  1   0 |       404 | | PHILO | | 146 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 166 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 157 | | take the fork ||
+  1   0 |       405 | | PHILO | | 156 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 160 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 165 | | take the fork ||
+  1   0 |       405 | | PHILO | | 165 | | take the fork ||
+  1   0 |       405 | | PHILO | | 165 | | eating ||
+  1   0 |       405 | | PHILO | | 161 | | take the fork ||
+  1   0 |       405 | | PHILO | | 162 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 164 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 159 | | take the fork ||
+  1   0 |       405 | | PHILO | | 159 | | take the fork ||
+  1   0 |       405 | | PHILO | | 159 | | eating ||
+  1   0 |       405 | | PHILO | | 158 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 157 | | take the fork ||
+  1   0 |       405 | | PHILO | | 157 | | eating ||
+  1   0 |       405 | | PHILO | | 155 | | take the fork ||
+  1   0 |       405 | | PHILO | | 163 | | take the fork ||
+  1   0 |       405 | | PHILO | | 155 | | eating ||
+  1   0 |       405 | | PHILO | | 170 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 167 | | take the fork ||
+  1   0 |       405 | | PHILO | | 167 | | take the fork ||
+  1   0 |       405 | | PHILO | | 167 | | eating ||
+  1   0 |       405 | | PHILO | | 168 | | is sleeping ||
+  0   0 |       405 | | PHILO | | 161 | | take the fork ||
+  1   0 |       405 | | PHILO | | 163 | | take the fork ||
+  1   0 |       405 | | PHILO | | 163 | | eating ||
+  1   0 |       405 | | PHILO | | 161 | | eating ||
+  1   0 |       405 | | PHILO | | 169 | | take the fork ||
+  1   0 |       405 | | PHILO | | 169 | | take the fork ||
+  1   0 |       405 | | PHILO | | 169 | | eating ||
+  1   0 |       405 | | PHILO | | 171 | | take the fork ||
+  1   0 |       406 | | PHILO | | 180 | | is sleeping ||
+  0   0 |       406 | | PHILO | | 174 | | is sleeping ||
+  0   0 |       406 | | PHILO | | 175 | | take the fork ||
+  1   0 |       406 | | PHILO | | 175 | | take the fork ||
+  1   0 |       406 | | PHILO | | 175 | | eating ||
+  1   0 |       406 | | PHILO | | 176 | | is sleeping ||
+  0   0 |       406 | | PHILO | | 178 | | is sleeping ||
+  0   0 |       406 | | PHILO | | 172 | | is sleeping ||
+  0   0 |       406 | | PHILO | | 181 | | take the fork ||
+  1   0 |       406 | | PHILO | | 173 | | take the fork ||
+  1   0 |       406 | | PHILO | | 173 | | take the fork ||
+  1   0 |       406 | | PHILO | | 173 | | eating ||
+  1   0 |       406 | | PHILO | | 177 | | take the fork ||
+  1   0 |       406 | | PHILO | | 177 | | take the fork ||
+  1   0 |       406 | | PHILO | | 177 | | eating ||
+  1   0 |       406 | | PHILO | | 179 | | take the fork ||
+  1   0 |       406 | | PHILO | | 179 | | take the fork ||
+  1   0 |       406 | | PHILO | | 179 | | eating ||
+  1   0 |       406 | | PHILO | | 171 | | take the fork ||
+  1   0 |       406 | | PHILO | | 171 | | eating ||
+  1   0 |       407 | | PHILO | | 183 | | take the fork ||
+  1   0 |       407 | | PHILO | | 182 | | is sleeping ||
+  0   0 |       407 | | PHILO | | 184 | | is sleeping ||
+  0   0 |       407 | | PHILO | | 181 | | take the fork ||
+  1   0 |       407 | | PHILO | | 181 | | eating ||
+  1   0 |       407 | | PHILO | | 183 | | take the fork ||
+  1   0 |       407 | | PHILO | | 189 | | take the fork ||
+  1   0 |       407 | | PHILO | | 183 | | eating ||
+  1   0 |       407 | | PHILO | | 185 | | take the fork ||
+  1   0 |       407 | | PHILO | | 190 | | is sleeping ||
+  0   0 |       407 | | PHILO | | 187 | | take the fork ||
+  1   0 |       407 | | PHILO | | 187 | | take the fork ||
+  1   0 |       407 | | PHILO | | 189 | | take the fork ||
+  1   0 |       407 | | PHILO | | 189 | | eating ||
+  1   0 |       407 | | PHILO | | 192 | | is sleeping ||
+  0   0 |       407 | | PHILO | | 186 | | is sleeping ||
+  0   0 |       407 | | PHILO | | 191 | | take the fork ||
+  1   0 |       407 | | PHILO | | 191 | | take the fork ||
+  1   0 |       407 | | PHILO | | 191 | | eating ||
+  1   0 |       407 | | PHILO | | 187 | | eating ||
+  1   0 |       407 | | PHILO | | 188 | | is sleeping ||
+  0   0 |       407 | | PHILO | | 193 | | take the fork ||
+  1   0 |       407 | | PHILO | | 185 | | take the fork ||
+  1   0 |       407 | | PHILO | | 185 | | eating ||
+  1   0 |       408 | | PHILO | | 200 | | is sleeping ||
+  0   0 |       408 | | PHILO | | 1 | | take the fork ||
+  1   0 |       408 | | PHILO | | 1 | | take the fork ||
+  1   0 |       408 | | PHILO | | 1 | | eating ||
+  1   0 |       408 | | PHILO | | 195 | | take the fork ||
+  1   0 |       408 | | PHILO | | 194 | | is sleeping ||
+  0   0 |       408 | | PHILO | | 193 | | take the fork ||
+  1   0 |       408 | | PHILO | | 196 | | is sleeping ||
+  0   0 |       408 | | PHILO | | 195 | | take the fork ||
+  1   0 |       408 | | PHILO | | 195 | | eating ||
+  1   0 |       408 | | PHILO | | 199 | | take the fork ||
+  1   0 |       408 | | PHILO | | 199 | | take the fork ||
+  1   0 |       408 | | PHILO | | 199 | | eating ||
+  1   0 |       408 | | PHILO | | 197 | | take the fork ||
+  1   0 |       408 | | PHILO | | 197 | | take the fork ||
+  1   0 |       408 | | PHILO | | 197 | | eating ||
+  1   0 |       408 | | PHILO | | 193 | | eating ||
+  1   0 |       408 | | PHILO | | 198 | | is sleeping ||
+  0   0 |       500 | | PHILO | | 18 | | is thinking ||
+  0   0 |       500 | | PHILO | | 16 | | is thinking ||
+  0   0 |       500 | | PHILO | | 4 | | is thinking ||
+  0   0 |       500 | | PHILO | | 12 | | is thinking ||
+  0   0 |       500 | | PHILO | | 10 | | is thinking ||
+  0   0 |       500 | | PHILO | | 2 | | is thinking ||
+  0   0 |       500 | | PHILO | | 14 | | is thinking ||
+  0   0 |       500 | | PHILO | | 24 | | is thinking ||
+  0   0 |       500 | | PHILO | | 20 | | is thinking ||
+  0   0 |       500 | | PHILO | | 22 | | is thinking ||
+  0   0 |       500 | | PHILO | | 6 | | is thinking ||
+  0   0 |       500 | | PHILO | | 26 | | is thinking ||
+  0   0 |       500 | | PHILO | | 8 | | is thinking ||
+  0   0 |       501 | | PHILO | | 50 | | is thinking ||
+  0   0 |       501 | | PHILO | | 62 | | is thinking ||
+  0   0 |       501 | | PHILO | | 70 | | is thinking ||
+  0   0 |       501 | | PHILO | | 42 | | is thinking ||
+  0   0 |       501 | | PHILO | | 38 | | is thinking ||
+  0   0 |       501 | | PHILO | | 30 | | is thinking ||
+  0   0 |       501 | | PHILO | | 46 | | is thinking ||
+  0   0 |       501 | | PHILO | | 68 | | is thinking ||
+  0   0 |       501 | | PHILO | | 60 | | is thinking ||
+  0   0 |       501 | | PHILO | | 64 | | is thinking ||
+  0   0 |       501 | | PHILO | | 58 | | is thinking ||
+  0   0 |       501 | | PHILO | | 32 | | is thinking ||
+  0   0 |       501 | | PHILO | | 54 | | is thinking ||
+  0   0 |       501 | | PHILO | | 72 | | is thinking ||
+  0   0 |       501 | | PHILO | | 36 | | is thinking ||
+  0   0 |       501 | | PHILO | | 40 | | is thinking ||
+  0   0 |       501 | | PHILO | | 66 | | is thinking ||
+  0   0 |       501 | | PHILO | | 34 | | is thinking ||
+  0   0 |       501 | | PHILO | | 44 | | is thinking ||
+  0   0 |       501 | | PHILO | | 28 | | is thinking ||
+  0   0 |       501 | | PHILO | | 56 | | is thinking ||
+  0   0 |       501 | | PHILO | | 52 | | is thinking ||
+  0   0 |       501 | | PHILO | | 48 | | is thinking ||
+  0   0 |       502 | | PHILO | | 108 | | is thinking ||
+  0   0 |       502 | | PHILO | | 88 | | is thinking ||
+  0   0 |       502 | | PHILO | | 84 | | is thinking ||
+  0   0 |       502 | | PHILO | | 90 | | is thinking ||
+  0   0 |       502 | | PHILO | | 76 | | is thinking ||
+  0   0 |       502 | | PHILO | | 78 | | is thinking ||
+  0   0 |       502 | | PHILO | | 100 | | is thinking ||
+  0   0 |       502 | | PHILO | | 80 | | is thinking ||
+  0   0 |       502 | | PHILO | | 96 | | is thinking ||
+  0   0 |       502 | | PHILO | | 104 | | is thinking ||
+  0   0 |       502 | | PHILO | | 98 | | is thinking ||
+  0   0 |       502 | | PHILO | | 106 | | is thinking ||
+  0   0 |       502 | | PHILO | | 82 | | is thinking ||
+  0   0 |       502 | | PHILO | | 74 | | is thinking ||
+  0   0 |       502 | | PHILO | | 94 | | is thinking ||
+  0   0 |       502 | | PHILO | | 86 | | is thinking ||
+  0   0 |       502 | | PHILO | | 102 | | is thinking ||
+  0   0 |       502 | | PHILO | | 92 | | is thinking ||
+  0   0 |       503 | | PHILO | | 126 | | is thinking ||
+  0   0 |       503 | | PHILO | | 124 | | is thinking ||
+  0   0 |       503 | | PHILO | | 110 | | is thinking ||
+  0   0 |       503 | | PHILO | | 128 | | is thinking ||
+  0   0 |       503 | | PHILO | | 120 | | is thinking ||
+  0   0 |       503 | | PHILO | | 118 | | is thinking ||
+  0   0 |       503 | | PHILO | | 130 | | is thinking ||
+  0   0 |       503 | | PHILO | | 122 | | is thinking ||
+  0   0 |       503 | | PHILO | | 114 | | is thinking ||
+  0   0 |       503 | | PHILO | | 134 | | is thinking ||
+  0   0 |       503 | | PHILO | | 116 | | is thinking ||
+  0   0 |       503 | | PHILO | | 132 | | is thinking ||
+  0   0 |       503 | | PHILO | | 112 | | is thinking ||
+  0   0 |       504 | | PHILO | | 148 | | is thinking ||
+  0   0 |       504 | | PHILO | | 144 | | is thinking ||
+  0   0 |       504 | | PHILO | | 150 | | is thinking ||
+  0   0 |       504 | | PHILO | | 146 | | is thinking ||
+  0   0 |       504 | | PHILO | | 154 | | is thinking ||
+  0   0 |       504 | | PHILO | | 152 | | is thinking ||
+  0   0 |       504 | | PHILO | | 142 | | is thinking ||
+  0   0 |       504 | | PHILO | | 136 | | is thinking ||
+  0   0 |       504 | | PHILO | | 140 | | is thinking ||
+  0   0 |       504 | | PHILO | | 138 | | is thinking ||
+  0   0 |       505 | | PHILO | | 160 | | is thinking ||
+  0   0 |       505 | | PHILO | | 162 | | is thinking ||
+  0   0 |       505 | | PHILO | | 156 | | is thinking ||
+  0   0 |       505 | | PHILO | | 158 | | is thinking ||
+  0   0 |       505 | | PHILO | | 166 | | is thinking ||
+  0   0 |       505 | | PHILO | | 164 | | is thinking ||
+  0   0 |       505 | | PHILO | | 168 | | is thinking ||
+  0   0 |       505 | | PHILO | | 170 | | is thinking ||
+  0   0 |       506 | | PHILO | | 178 | | is thinking ||
+  0   0 |       506 | | PHILO | | 172 | | is thinking ||
+  0   0 |       506 | | PHILO | | 180 | | is thinking ||
+  0   0 |       506 | | PHILO | | 174 | | is thinking ||
+  0   0 |       506 | | PHILO | | 176 | | is thinking ||
+  0   0 |       507 | | PHILO | | 188 | | is thinking ||
+  0   0 |       507 | | PHILO | | 182 | | is thinking ||
+  0   0 |       507 | | PHILO | | 184 | | is thinking ||
+  0   0 |       507 | | PHILO | | 192 | | is thinking ||
+  0   0 |       507 | | PHILO | | 186 | | is thinking ||
+  0   0 |       507 | | PHILO | | 190 | | is thinking ||
+  0   0 |       508 | | PHILO | | 200 | | is thinking ||
+  0   0 |       508 | | PHILO | | 196 | | is thinking ||
+  0   0 |       508 | | PHILO | | 194 | | is thinking ||
+  0   0 |       508 | | PHILO | | 198 | | is thinking ||
+  0   0 |       600 | | PHILO | | 11 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 3 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 4 | | take the fork ||
+  1   0 |       600 | | PHILO | | 4 | | take the fork ||
+  1   0 |       600 | | PHILO | | 4 | | eating ||
+  1   0 |       600 | | PHILO | | 10 | | take the fork ||
+  1   0 |       600 | | PHILO | | 18 | | take the fork ||
+  1   0 |       600 | | PHILO | | 10 | | take the fork ||
+  1   0 |       600 | | PHILO | | 10 | | eating ||
+  1   0 |       600 | | PHILO | | 7 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 17 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 8 | | take the fork ||
+  1   0 |       600 | | PHILO | | 8 | | take the fork ||
+  1   0 |       600 | | PHILO | | 8 | | eating ||
+  1   0 |       600 | | PHILO | | 14 | | take the fork ||
+  1   0 |       600 | | PHILO | | 25 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 26 | | take the fork ||
+  1   0 |       600 | | PHILO | | 19 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 12 | | take the fork ||
+  1   0 |       600 | | PHILO | | 18 | | take the fork ||
+  1   0 |       600 | | PHILO | | 18 | | eating ||
+  1   0 |       600 | | PHILO | | 20 | | take the fork ||
+  1   0 |       600 | | PHILO | | 20 | | take the fork ||
+  1   0 |       600 | | PHILO | | 12 | | take the fork ||
+  1   0 |       600 | | PHILO | | 20 | | eating ||
+  1   0 |       600 | | PHILO | | 5 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 6 | | take the fork ||
+  1   0 |       600 | | PHILO | | 23 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 6 | | take the fork ||
+  1   0 |       600 | | PHILO | | 6 | | eating ||
+  1   0 |       600 | | PHILO | | 21 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 9 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 16 | | take the fork ||
+  1   0 |       600 | | PHILO | | 16 | | take the fork ||
+  1   0 |       600 | | PHILO | | 13 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 16 | | eating ||
+  1   0 |       600 | | PHILO | | 14 | | take the fork ||
+  1   0 |       600 | | PHILO | | 14 | | eating ||
+  1   0 |       600 | | PHILO | | 12 | | eating ||
+  1   0 |       600 | | PHILO | | 15 | | is sleeping ||
+  1   0 |       600 | | PHILO | | 22 | | take the fork ||
+  1   0 |       600 | | PHILO | | 22 | | take the fork ||
+  1   0 |       600 | | PHILO | | 22 | | eating ||
+  1   0 |       600 | | PHILO | | 24 | | take the fork ||
+  1   0 |       600 | | PHILO | | 24 | | take the fork ||
+  1   0 |       600 | | PHILO | | 24 | | eating ||
+  1   0 |       601 | | PHILO | | 29 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 30 | | take the fork ||
+  1   0 |       601 | | PHILO | | 57 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 58 | | take the fork ||
+  1   0 |       601 | | PHILO | | 34 | | take the fork ||
+  1   0 |       601 | | PHILO | | 53 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 33 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 61 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 38 | | take the fork ||
+  1   0 |       601 | | PHILO | | 72 | | take the fork ||
+  1   0 |       601 | | PHILO | | 27 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 59 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 60 | | take the fork ||
+  1   0 |       601 | | PHILO | | 44 | | take the fork ||
+  1   0 |       601 | | PHILO | | 66 | | take the fork ||
+  1   0 |       601 | | PHILO | | 26 | | take the fork ||
+  1   0 |       601 | | PHILO | | 68 | | take the fork ||
+  1   0 |       601 | | PHILO | | 35 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 37 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 28 | | take the fork ||
+  1   0 |       601 | | PHILO | | 28 | | take the fork ||
+  1   0 |       601 | | PHILO | | 34 | | take the fork ||
+  1   0 |       601 | | PHILO | | 43 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 38 | | take the fork ||
+  1   0 |       601 | | PHILO | | 55 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 26 | | eating ||
+  1   0 |       601 | | PHILO | | 65 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 39 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 52 | | take the fork ||
+  1   0 |       601 | | PHILO | | 52 | | take the fork ||
+  1   0 |       601 | | PHILO | | 70 | | take the fork ||
+  1   0 |       601 | | PHILO | | 64 | | take the fork ||
+  1   0 |       601 | | PHILO | | 52 | | eating ||
+  1   0 |       601 | | PHILO | | 64 | | take the fork ||
+  1   0 |       601 | | PHILO | | 60 | | take the fork ||
+  1   0 |       601 | | PHILO | | 64 | | eating ||
+  1   0 |       601 | | PHILO | | 54 | | take the fork ||
+  1   0 |       601 | | PHILO | | 36 | | take the fork ||
+  1   0 |       601 | | PHILO | | 66 | | take the fork ||
+  1   0 |       601 | | PHILO | | 66 | | eating ||
+  1   0 |       601 | | PHILO | | 30 | | take the fork ||
+  1   0 |       601 | | PHILO | | 30 | | eating ||
+  1   0 |       601 | | PHILO | | 48 | | take the fork ||
+  1   0 |       601 | | PHILO | | 47 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 46 | | take the fork ||
+  1   0 |       601 | | PHILO | | 46 | | take the fork ||
+  1   0 |       601 | | PHILO | | 46 | | eating ||
+  1   0 |       601 | | PHILO | | 60 | | eating ||
+  1   0 |       601 | | PHILO | | 48 | | take the fork ||
+  1   0 |       601 | | PHILO | | 48 | | eating ||
+  1   0 |       601 | | PHILO | | 68 | | take the fork ||
+  1   0 |       601 | | PHILO | | 68 | | eating ||
+  1   0 |       601 | | PHILO | | 40 | | take the fork ||
+  1   0 |       601 | | PHILO | | 42 | | take the fork ||
+  1   0 |       601 | | PHILO | | 70 | | take the fork ||
+  1   0 |       601 | | PHILO | | 67 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 44 | | take the fork ||
+  1   0 |       601 | | PHILO | | 58 | | take the fork ||
+  1   0 |       601 | | PHILO | | 44 | | eating ||
+  1   0 |       601 | | PHILO | | 58 | | eating ||
+  1   0 |       601 | | PHILO | | 50 | | take the fork ||
+  1   0 |       601 | | PHILO | | 49 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 50 | | take the fork ||
+  1   0 |       601 | | PHILO | | 50 | | eating ||
+  1   0 |       601 | | PHILO | | 69 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 71 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 51 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 63 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 28 | | eating ||
+  1   0 |       601 | | PHILO | | 32 | | take the fork ||
+  1   0 |       601 | | PHILO | | 32 | | take the fork ||
+  1   0 |       601 | | PHILO | | 32 | | eating ||
+  1   0 |       601 | | PHILO | | 42 | | take the fork ||
+  1   0 |       601 | | PHILO | | 42 | | eating ||
+  1   0 |       601 | | PHILO | | 70 | | eating ||
+  1   0 |       601 | | PHILO | | 36 | | take the fork ||
+  1   0 |       601 | | PHILO | | 40 | | take the fork ||
+  1   0 |       601 | | PHILO | | 36 | | eating ||
+  1   0 |       601 | | PHILO | | 40 | | eating ||
+  1   0 |       601 | | PHILO | | 54 | | take the fork ||
+  1   0 |       601 | | PHILO | | 54 | | eating ||
+  1   0 |       601 | | PHILO | | 38 | | eating ||
+  1   0 |       601 | | PHILO | | 56 | | take the fork ||
+  1   0 |       601 | | PHILO | | 56 | | take the fork ||
+  1   0 |       601 | | PHILO | | 56 | | eating ||
+  1   0 |       601 | | PHILO | | 31 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 62 | | take the fork ||
+  1   0 |       601 | | PHILO | | 62 | | take the fork ||
+  1   0 |       601 | | PHILO | | 62 | | eating ||
+  1   0 |       601 | | PHILO | | 34 | | eating ||
+  1   0 |       601 | | PHILO | | 45 | | is sleeping ||
+  1   0 |       601 | | PHILO | | 41 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 75 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 77 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 76 | | take the fork ||
+  1   0 |       602 | | PHILO | | 82 | | take the fork ||
+  1   0 |       602 | | PHILO | | 97 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 98 | | take the fork ||
+  1   0 |       602 | | PHILO | | 81 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 79 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 89 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 105 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 106 | | take the fork ||
+  1   0 |       602 | | PHILO | | 90 | | take the fork ||
+  1   0 |       602 | | PHILO | | 95 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 80 | | take the fork ||
+  1   0 |       602 | | PHILO | | 103 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 80 | | take the fork ||
+  1   0 |       602 | | PHILO | | 80 | | eating ||
+  1   0 |       602 | | PHILO | | 107 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 106 | | take the fork ||
+  1   0 |       602 | | PHILO | | 108 | | take the fork ||
+  1   0 |       602 | | PHILO | | 74 | | take the fork ||
+  1   0 |       602 | | PHILO | | 91 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 74 | | take the fork ||
+  1   0 |       602 | | PHILO | | 74 | | eating ||
+  1   0 |       602 | | PHILO | | 90 | | take the fork ||
+  1   0 |       602 | | PHILO | | 76 | | take the fork ||
+  1   0 |       602 | | PHILO | | 94 | | take the fork ||
+  1   0 |       602 | | PHILO | | 76 | | eating ||
+  1   0 |       602 | | PHILO | | 94 | | take the fork ||
+  1   0 |       602 | | PHILO | | 84 | | take the fork ||
+  1   0 |       602 | | PHILO | | 84 | | take the fork ||
+  1   0 |       602 | | PHILO | | 84 | | eating ||
+  1   0 |       602 | | PHILO | | 73 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 100 | | take the fork ||
+  1   0 |       602 | | PHILO | | 72 | | take the fork ||
+  1   0 |       602 | | PHILO | | 72 | | eating ||
+  1   0 |       602 | | PHILO | | 83 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 100 | | take the fork ||
+  1   0 |       602 | | PHILO | | 100 | | eating ||
+  1   0 |       602 | | PHILO | | 86 | | take the fork ||
+  1   0 |       602 | | PHILO | | 102 | | take the fork ||
+  1   0 |       602 | | PHILO | | 86 | | take the fork ||
+  1   0 |       602 | | PHILO | | 86 | | eating ||
+  1   0 |       602 | | PHILO | | 102 | | take the fork ||
+  1   0 |       602 | | PHILO | | 102 | | eating ||
+  1   0 |       602 | | PHILO | | 90 | | eating ||
+  1   0 |       602 | | PHILO | | 96 | | take the fork ||
+  1   0 |       602 | | PHILO | | 93 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 94 | | eating ||
+  1   0 |       602 | | PHILO | | 99 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 85 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 78 | | take the fork ||
+  1   0 |       602 | | PHILO | | 106 | | eating ||
+  1   0 |       602 | | PHILO | | 78 | | take the fork ||
+  1   0 |       602 | | PHILO | | 78 | | eating ||
+  1   0 |       602 | | PHILO | | 82 | | take the fork ||
+  1   0 |       602 | | PHILO | | 82 | | eating ||
+  1   0 |       602 | | PHILO | | 101 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 88 | | take the fork ||
+  1   0 |       602 | | PHILO | | 98 | | take the fork ||
+  1   0 |       602 | | PHILO | | 98 | | eating ||
+  1   0 |       602 | | PHILO | | 88 | | take the fork ||
+  1   0 |       602 | | PHILO | | 88 | | eating ||
+  1   0 |       602 | | PHILO | | 96 | | take the fork ||
+  1   0 |       602 | | PHILO | | 96 | | eating ||
+  1   0 |       602 | | PHILO | | 104 | | take the fork ||
+  1   0 |       602 | | PHILO | | 104 | | take the fork ||
+  1   0 |       602 | | PHILO | | 104 | | eating ||
+  1   0 |       602 | | PHILO | | 92 | | take the fork ||
+  1   0 |       602 | | PHILO | | 92 | | take the fork ||
+  1   0 |       602 | | PHILO | | 87 | | is sleeping ||
+  1   0 |       602 | | PHILO | | 92 | | eating ||
+  1   0 |       603 | | PHILO | | 110 | | take the fork ||
+  1   0 |       603 | | PHILO | | 109 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 127 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 119 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 120 | | take the fork ||
+  1   0 |       603 | | PHILO | | 133 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 111 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 108 | | take the fork ||
+  1   0 |       603 | | PHILO | | 108 | | eating ||
+  1   0 |       603 | | PHILO | | 123 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 110 | | take the fork ||
+  1   0 |       603 | | PHILO | | 118 | | take the fork ||
+  1   0 |       603 | | PHILO | | 118 | | take the fork ||
+  1   0 |       603 | | PHILO | | 120 | | take the fork ||
+  1   0 |       603 | | PHILO | | 118 | | eating ||
+  1   0 |       603 | | PHILO | | 120 | | eating ||
+  1   0 |       603 | | PHILO | | 121 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 125 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 110 | | eating ||
+  1   0 |       603 | | PHILO | | 117 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 113 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 132 | | take the fork ||
+  1   0 |       603 | | PHILO | | 132 | | take the fork ||
+  1   0 |       603 | | PHILO | | 132 | | eating ||
+  1   0 |       603 | | PHILO | | 114 | | take the fork ||
+  1   0 |       603 | | PHILO | | 122 | | take the fork ||
+  1   0 |       603 | | PHILO | | 122 | | take the fork ||
+  1   0 |       603 | | PHILO | | 122 | | eating ||
+  1   0 |       603 | | PHILO | | 114 | | take the fork ||
+  1   0 |       603 | | PHILO | | 114 | | eating ||
+  1   0 |       603 | | PHILO | | 112 | | take the fork ||
+  1   0 |       603 | | PHILO | | 112 | | take the fork ||
+  1   0 |       603 | | PHILO | | 112 | | eating ||
+  1   0 |       603 | | PHILO | | 128 | | take the fork ||
+  1   0 |       603 | | PHILO | | 128 | | take the fork ||
+  1   0 |       603 | | PHILO | | 128 | | eating ||
+  1   0 |       603 | | PHILO | | 129 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 130 | | take the fork ||
+  1   0 |       603 | | PHILO | | 131 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 134 | | take the fork ||
+  1   0 |       603 | | PHILO | | 124 | | take the fork ||
+  1   0 |       603 | | PHILO | | 124 | | take the fork ||
+  1   0 |       603 | | PHILO | | 124 | | eating ||
+  1   0 |       603 | | PHILO | | 126 | | take the fork ||
+  1   0 |       603 | | PHILO | | 115 | | is sleeping ||
+  1   0 |       603 | | PHILO | | 116 | | take the fork ||
+  1   0 |       603 | | PHILO | | 116 | | take the fork ||
+  1   0 |       603 | | PHILO | | 116 | | eating ||
+  1   0 |       603 | | PHILO | | 130 | | take the fork ||
+  1   0 |       603 | | PHILO | | 130 | | eating ||
+  1   0 |       603 | | PHILO | | 126 | | take the fork ||
+  1   0 |       603 | | PHILO | | 126 | | eating ||
+  1   0 |       604 | | PHILO | | 136 | | take the fork ||
+  1   0 |       604 | | PHILO | | 146 | | take the fork ||
+  1   0 |       604 | | PHILO | | 135 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 145 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 140 | | take the fork ||
+  1   0 |       604 | | PHILO | | 153 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 149 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 150 | | take the fork ||
+  1   0 |       604 | | PHILO | | 144 | | take the fork ||
+  1   0 |       604 | | PHILO | | 137 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 152 | | take the fork ||
+  1   0 |       604 | | PHILO | | 144 | | take the fork ||
+  1   0 |       604 | | PHILO | | 144 | | eating ||
+  1   0 |       604 | | PHILO | | 152 | | take the fork ||
+  1   0 |       604 | | PHILO | | 146 | | take the fork ||
+  1   0 |       604 | | PHILO | | 134 | | take the fork ||
+  1   0 |       604 | | PHILO | | 138 | | take the fork ||
+  1   0 |       604 | | PHILO | | 138 | | take the fork ||
+  1   0 |       604 | | PHILO | | 138 | | eating ||
+  1   0 |       604 | | PHILO | | 140 | | take the fork ||
+  1   0 |       604 | | PHILO | | 136 | | take the fork ||
+  1   0 |       604 | | PHILO | | 140 | | eating ||
+  1   0 |       604 | | PHILO | | 136 | | eating ||
+  1   0 |       604 | | PHILO | | 143 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 148 | | take the fork ||
+  1   0 |       604 | | PHILO | | 154 | | take the fork ||
+  1   0 |       604 | | PHILO | | 148 | | take the fork ||
+  1   0 |       604 | | PHILO | | 148 | | eating ||
+  1   0 |       604 | | PHILO | | 134 | | eating ||
+  1   0 |       604 | | PHILO | | 146 | | eating ||
+  1   0 |       604 | | PHILO | | 151 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 139 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 142 | | take the fork ||
+  1   0 |       604 | | PHILO | | 142 | | take the fork ||
+  1   0 |       604 | | PHILO | | 142 | | eating ||
+  1   0 |       604 | | PHILO | | 150 | | take the fork ||
+  1   0 |       604 | | PHILO | | 150 | | eating ||
+  1   0 |       604 | | PHILO | | 152 | | eating ||
+  1   0 |       604 | | PHILO | | 147 | | is sleeping ||
+  1   0 |       604 | | PHILO | | 141 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 169 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 168 | | take the fork ||
+  1   0 |       605 | | PHILO | | 157 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 163 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 164 | | take the fork ||
+  1   0 |       605 | | PHILO | | 158 | | take the fork ||
+  1   0 |       605 | | PHILO | | 154 | | take the fork ||
+  1   0 |       605 | | PHILO | | 158 | | take the fork ||
+  1   0 |       605 | | PHILO | | 158 | | eating ||
+  1   0 |       605 | | PHILO | | 154 | | eating ||
+  1   0 |       605 | | PHILO | | 162 | | take the fork ||
+  1   0 |       605 | | PHILO | | 162 | | take the fork ||
+  1   0 |       605 | | PHILO | | 161 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 162 | | eating ||
+  1   0 |       605 | | PHILO | | 155 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 156 | | take the fork ||
+  1   0 |       605 | | PHILO | | 156 | | take the fork ||
+  1   0 |       605 | | PHILO | | 156 | | eating ||
+  1   0 |       605 | | PHILO | | 167 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 160 | | take the fork ||
+  1   0 |       605 | | PHILO | | 170 | | take the fork ||
+  1   0 |       605 | | PHILO | | 168 | | take the fork ||
+  1   0 |       605 | | PHILO | | 168 | | eating ||
+  1   0 |       605 | | PHILO | | 159 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 160 | | take the fork ||
+  1   0 |       605 | | PHILO | | 160 | | eating ||
+  1   0 |       605 | | PHILO | | 165 | | is sleeping ||
+  1   0 |       605 | | PHILO | | 164 | | take the fork ||
+  1   0 |       605 | | PHILO | | 164 | | eating ||
+  1   0 |       605 | | PHILO | | 166 | | take the fork ||
+  1   0 |       605 | | PHILO | | 166 | | take the fork ||
+  1   0 |       605 | | PHILO | | 166 | | eating ||
+  1   0 |       606 | | PHILO | | 171 | | is sleeping ||
+  1   0 |       606 | | PHILO | | 173 | | is sleeping ||
+  1   0 |       606 | | PHILO | | 170 | | take the fork ||
+  1   0 |       606 | | PHILO | | 170 | | eating ||
+  1   0 |       606 | | PHILO | | 179 | | is sleeping ||
+  1   0 |       606 | | PHILO | | 174 | | take the fork ||
+  1   0 |       606 | | PHILO | | 174 | | take the fork ||
+  1   0 |       606 | | PHILO | | 174 | | eating ||
+  1   0 |       606 | | PHILO | | 172 | | take the fork ||
+  1   0 |       606 | | PHILO | | 172 | | take the fork ||
+  1   0 |       606 | | PHILO | | 172 | | eating ||
+  1   0 |       606 | | PHILO | | 177 | | is sleeping ||
+  1   0 |       606 | | PHILO | | 176 | | take the fork ||
+  1   0 |       606 | | PHILO | | 176 | | take the fork ||
+  1   0 |       606 | | PHILO | | 176 | | eating ||
+  1   0 |       606 | | PHILO | | 175 | | is sleeping ||
+  1   0 |       606 | | PHILO | | 180 | | take the fork ||
+  1   0 |       606 | | PHILO | | 178 | | take the fork ||
+  1   0 |       606 | | PHILO | | 178 | | take the fork ||
+  1   0 |       606 | | PHILO | | 178 | | eating ||
+  1   0 |       607 | | PHILO | | 184 | | take the fork ||
+  1   0 |       607 | | PHILO | | 191 | | is sleeping ||
+  1   0 |       607 | | PHILO | | 181 | | is sleeping ||
+  1   0 |       607 | | PHILO | | 190 | | take the fork ||
+  1   0 |       607 | | PHILO | | 185 | | is sleeping ||
+  1   0 |       607 | | PHILO | | 184 | | take the fork ||
+  1   0 |       607 | | PHILO | | 184 | | eating ||
+  1   0 |       607 | | PHILO | | 180 | | take the fork ||
+  1   0 |       607 | | PHILO | | 180 | | eating ||
+  1   0 |       607 | | PHILO | | 189 | | is sleeping ||
+  1   0 |       607 | | PHILO | | 186 | | take the fork ||
+  1   0 |       607 | | PHILO | | 182 | | take the fork ||
+  1   0 |       607 | | PHILO | | 182 | | take the fork ||
+  1   0 |       607 | | PHILO | | 182 | | eating ||
+  1   0 |       607 | | PHILO | | 183 | | is sleeping ||
+  1   0 |       607 | | PHILO | | 192 | | take the fork ||
+  1   0 |       607 | | PHILO | | 190 | | take the fork ||
+  1   0 |       607 | | PHILO | | 190 | | eating ||
+  1   0 |       607 | | PHILO | | 188 | | take the fork ||
+  1   0 |       607 | | PHILO | | 188 | | take the fork ||
+  1   0 |       607 | | PHILO | | 188 | | eating ||
+  1   0 |       607 | | PHILO | | 187 | | is sleeping ||
+  1   0 |       607 | | PHILO | | 186 | | take the fork ||
+  1   0 |       607 | | PHILO | | 186 | | eating ||
+  1   0 |       608 | | PHILO | | 197 | | is sleeping ||
+  1   0 |       608 | | PHILO | | 198 | | take the fork ||
+  1   0 |       608 | | PHILO | | 194 | | take the fork ||
+  1   0 |       608 | | PHILO | | 195 | | is sleeping ||
+  1   0 |       608 | | PHILO | | 200 | | take the fork ||
+  1   0 |       608 | | PHILO | | 199 | | is sleeping ||
+  1   0 |       608 | | PHILO | | 196 | | take the fork ||
+  1   0 |       608 | | PHILO | | 198 | | take the fork ||
+  1   0 |       608 | | PHILO | | 198 | | eating ||
+  1   0 |       608 | | PHILO | | 194 | | take the fork ||
+  1   0 |       608 | | PHILO | | 194 | | eating ||
+  1   0 |       608 | | PHILO | | 192 | | take the fork ||
+  1   0 |       608 | | PHILO | | 192 | | eating ||
+  1   0 |       608 | | PHILO | | 196 | | take the fork ||
+  1   0 |       608 | | PHILO | | 196 | | eating ||
+  1   0 |       608 | | PHILO | | 193 | | is sleeping ||
+  1   0 |       608 | | PHILO | | 2 | | take the fork ||
+  1   0 |       608 | | PHILO | | 2 | | take the fork ||
+  1   0 |       608 | | PHILO | | 2 | | eating ||
+  1   0 |       608 | | PHILO | | 200 | | take the fork ||
+  1   0 |       608 | | PHILO | | 200 | | eating ||
+  1   0 |       608 | | PHILO | | 1 | | is sleeping ||
+  1   0 |       700 | | PHILO | | 11 | | is thinking ||
+  1   0 |       700 | | PHILO | | 15 | | is thinking ||
+  1   0 |       700 | | PHILO | | 9 | | is thinking ||
+  1   0 |       700 | | PHILO | | 5 | | is thinking ||
+  1   0 |       700 | | PHILO | | 21 | | is thinking ||
+  1   0 |       700 | | PHILO | | 7 | | is thinking ||
+  1   0 |       700 | | PHILO | | 25 | | is thinking ||
+  1   0 |       700 | | PHILO | | 19 | | is thinking ||
+  1   0 |       700 | | PHILO | | 17 | | is thinking ||
+  1   0 |       700 | | PHILO | | 23 | | is thinking ||
+  1   0 |       700 | | PHILO | | 3 | | is thinking ||
+  1   0 |       700 | | PHILO | | 13 | | is thinking ||
+  1   0 |       701 | | PHILO | | 39 | | is thinking ||
+  1   0 |       701 | | PHILO | | 43 | | is thinking ||
+  1   0 |       701 | | PHILO | | 35 | | is thinking ||
+  1   0 |       701 | | PHILO | | 33 | | is thinking ||
+  1   0 |       701 | | PHILO | | 61 | | is thinking ||
+  1   0 |       701 | | PHILO | | 45 | | is thinking ||
+  1   0 |       701 | | PHILO | | 37 | | is thinking ||
+  1   0 |       701 | | PHILO | | 57 | | is thinking ||
+  1   0 |       701 | | PHILO | | 51 | | is thinking ||
+  1   0 |       701 | | PHILO | | 31 | | is thinking ||
+  1   0 |       701 | | PHILO | | 55 | | is thinking ||
+  1   0 |       701 | | PHILO | | 29 | | is thinking ||
+  1   0 |       701 | | PHILO | | 69 | | is thinking ||
+  1   0 |       701 | | PHILO | | 59 | | is thinking ||
+  1   0 |       701 | | PHILO | | 63 | | is thinking ||
+  1   0 |       701 | | PHILO | | 47 | | is thinking ||
+  1   0 |       701 | | PHILO | | 49 | | is thinking ||
+  1   0 |       701 | | PHILO | | 53 | | is thinking ||
+  1   0 |       701 | | PHILO | | 67 | | is thinking ||
+  1   0 |       701 | | PHILO | | 71 | | is thinking ||
+  1   0 |       701 | | PHILO | | 27 | | is thinking ||
+  1   0 |       701 | | PHILO | | 41 | | is thinking ||
+  1   0 |       701 | | PHILO | | 65 | | is thinking ||
+  1   0 |       702 | | PHILO | | 81 | | is thinking ||
+  1   0 |       702 | | PHILO | | 101 | | is thinking ||
+  1   0 |       702 | | PHILO | | 89 | | is thinking ||
+  1   0 |       702 | | PHILO | | 91 | | is thinking ||
+  1   0 |       702 | | PHILO | | 77 | | is thinking ||
+  1   0 |       702 | | PHILO | | 93 | | is thinking ||
+  1   0 |       702 | | PHILO | | 79 | | is thinking ||
+  1   0 |       702 | | PHILO | | 105 | | is thinking ||
+  1   0 |       702 | | PHILO | | 85 | | is thinking ||
+  1   0 |       702 | | PHILO | | 107 | | is thinking ||
+  1   0 |       702 | | PHILO | | 95 | | is thinking ||
+  1   0 |       702 | | PHILO | | 75 | | is thinking ||
+  1   0 |       702 | | PHILO | | 83 | | is thinking ||
+  1   0 |       702 | | PHILO | | 99 | | is thinking ||
+  1   0 |       702 | | PHILO | | 97 | | is thinking ||
+  1   0 |       702 | | PHILO | | 73 | | is thinking ||
+  1   0 |       702 | | PHILO | | 103 | | is thinking ||
+  1   0 |       702 | | PHILO | | 87 | | is thinking ||
+  1   0 |       703 | | PHILO | | 117 | | is thinking ||
+  1   0 |       703 | | PHILO | | 111 | | is thinking ||
+  1   0 |       703 | | PHILO | | 133 | | is thinking ||
+  1   0 |       703 | | PHILO | | 109 | | is thinking ||
+  1   0 |       703 | | PHILO | | 121 | | is thinking ||
+  1   0 |       703 | | PHILO | | 131 | | is thinking ||
+  1   0 |       703 | | PHILO | | 115 | | is thinking ||
+  1   0 |       703 | | PHILO | | 127 | | is thinking ||
+  1   0 |       703 | | PHILO | | 113 | | is thinking ||
+  1   0 |       703 | | PHILO | | 129 | | is thinking ||
+  1   0 |       703 | | PHILO | | 125 | | is thinking ||
+  1   0 |       703 | | PHILO | | 119 | | is thinking ||
+  1   0 |       703 | | PHILO | | 123 | | is thinking ||
+  1   0 |       704 | | PHILO | | 141 | | is thinking ||
+  1   0 |       704 | | PHILO | | 137 | | is thinking ||
+  1   0 |       704 | | PHILO | | 147 | | is thinking ||
+  1   0 |       704 | | PHILO | | 143 | | is thinking ||
+  1   0 |       704 | | PHILO | | 145 | | is thinking ||
+  1   0 |       704 | | PHILO | | 149 | | is thinking ||
+  1   0 |       704 | | PHILO | | 151 | | is thinking ||
+  1   0 |       704 | | PHILO | | 139 | | is thinking ||
+  1   0 |       704 | | PHILO | | 153 | | is thinking ||
+  1   0 |       704 | | PHILO | | 135 | | is thinking ||
+  1   0 |       705 | | PHILO | | 157 | | is thinking ||
+  1   0 |       705 | | PHILO | | 155 | | is thinking ||
+  1   0 |       705 | | PHILO | | 159 | | is thinking ||
+  1   0 |       705 | | PHILO | | 167 | | is thinking ||
+  1   0 |       705 | | PHILO | | 169 | | is thinking ||
+  1   0 |       705 | | PHILO | | 163 | | is thinking ||
+  1   0 |       705 | | PHILO | | 161 | | is thinking ||
+  1   0 |       705 | | PHILO | | 165 | | is thinking ||
+  1   0 |       706 | | PHILO | | 173 | | is thinking ||
+  1   0 |       706 | | PHILO | | 171 | | is thinking ||
+  1   0 |       706 | | PHILO | | 179 | | is thinking ||
+  1   0 |       706 | | PHILO | | 177 | | is thinking ||
+  1   0 |       706 | | PHILO | | 175 | | is thinking ||
+  1   0 |       707 | | PHILO | | 183 | | is thinking ||
+  1   0 |       707 | | PHILO | | 185 | | is thinking ||
+  1   0 |       707 | | PHILO | | 187 | | is thinking ||
+  1   0 |       707 | | PHILO | | 181 | | is thinking ||
+  1   0 |       707 | | PHILO | | 189 | | is thinking ||
+  1   0 |       707 | | PHILO | | 191 | | is thinking ||
+  1   0 |       708 | | PHILO | | 1 | | is thinking ||
+  1   0 |       708 | | PHILO | | 193 | | is thinking ||
+  1   0 |       708 | | PHILO | | 199 | | is thinking ||
+  1   0 |       708 | | PHILO | | 195 | | is thinking ||
+  1   0 |       708 | | PHILO | | 197 | | is thinking ||
+  1   0 |       800 | | PHILO | | 24 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 10 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 14 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 16 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 8 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 18 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 4 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 6 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 12 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 20 | | is sleeping ||
+  1   0 |       800 | | PHILO | | 22 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 32 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 30 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 50 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 34 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 68 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 52 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 56 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 38 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 26 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 40 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 28 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 46 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 64 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 58 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 60 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 70 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 62 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 36 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 44 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 54 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 42 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 66 | | is sleeping ||
+  1   0 |       801 | | PHILO | | 48 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 78 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 94 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 102 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 92 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 72 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 80 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 86 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 100 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 76 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 84 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 90 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 82 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 106 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 96 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 104 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 74 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 98 | | is sleeping ||
+  1   0 |       802 | | PHILO | | 88 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 122 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 128 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 112 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 120 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 124 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 118 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 126 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 132 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 110 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 130 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 108 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 114 | | is sleeping ||
+  1   0 |       803 | | PHILO | | 116 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 146 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 136 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 138 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 134 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 142 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 140 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 148 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 152 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 150 | | is sleeping ||
+  1   0 |       804 | | PHILO | | 144 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 164 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 154 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 168 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 162 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 166 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 156 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 158 | | is sleeping ||
+  1   0 |       805 | | PHILO | | 160 | | is sleeping ||
+  1   0 |       806 | | PHILO | | 172 | | is sleeping ||
+  1   0 |       806 | | PHILO | | 176 | | is sleeping ||
+  1   0 |       806 | | PHILO | | 170 | | is sleeping ||
+  1   0 |       806 | | PHILO | | 174 | | is sleeping ||
+  1   0 |       806 | | PHILO | | 178 | | is sleeping ||
+  1   0 |       807 | | PHILO | | 182 | | is sleeping ||
+  1   0 |       807 | | PHILO | | 190 | | is sleeping ||
+  1   0 |       807 | | PHILO | | 186 | | is sleeping ||
+  1   0 |       807 | | PHILO | | 184 | | is sleeping ||
+  1   0 |       807 | | PHILO | | 188 | | is sleeping ||
+  1   0 |       807 | | PHILO | | 180 | | is sleeping ||
+  1   0 |       808 | | PHILO | | 200 | | is sleeping ||
+  1   0 |       808 | | PHILO | | 192 | | is sleeping ||
+  1   0 |       808 | | PHILO | | 198 | | is sleeping ||
+  1   0 |       808 | | PHILO | | 196 | | is sleeping ||
+  1   0 |       808 | | PHILO | | 2 | | is sleeping ||
+  1   0 |       810 | | PHILO | | 194 | | is sleeping ||
+  1   0 |       900 | | PHILO | | 10 | | is thinking ||
+  1   0 |       900 | | PHILO | | 22 | | is thinking ||
+  1   0 |       900 | | PHILO | | 12 | | is thinking ||
+  1   0 |       900 | | PHILO | | 20 | | is thinking ||
+  1   0 |       900 | | PHILO | | 8 | | is thinking ||
+  1   0 |       900 | | PHILO | | 24 | | is thinking ||
+  1   0 |       900 | | PHILO | | 14 | | is thinking ||
+  1   0 |       900 | | PHILO | | 18 | | is thinking ||
+  1   0 |       900 | | PHILO | | 4 | | is thinking ||
+  1   0 |       900 | | PHILO | | 6 | | is thinking ||
+  1   0 |       900 | | PHILO | | 16 | | is thinking ||
+  1   0 |       901 | | PHILO | | 28 | | is thinking ||
+  1   0 |       901 | | PHILO | | 44 | | is thinking ||
+  1   0 |       901 | | PHILO | | 30 | | is thinking ||
+  1   0 |       901 | | PHILO | | 58 | | is thinking ||
+  1   0 |       901 | | PHILO | | 68 | | is thinking ||
+  1   0 |       901 | | PHILO | | 48 | | is thinking ||
+  1   0 |       901 | | PHILO | | 64 | | is thinking ||
+  1   0 |       901 | | PHILO | | 52 | | is thinking ||
+  1   0 |       901 | | PHILO | | 34 | | is thinking ||
+  1   0 |       901 | | PHILO | | 42 | | is thinking ||
+  1   0 |       901 | | PHILO | | 46 | | is thinking ||
+  1   0 |       901 | | PHILO | | 54 | | is thinking ||
+  1   0 |       901 | | PHILO | | 38 | | is thinking ||
+  1   0 |       901 | | PHILO | | 66 | | is thinking ||
+  1   0 |       901 | | PHILO | | 26 | | is thinking ||
+  1   0 |       901 | | PHILO | | 50 | | is thinking ||
+  1   0 |       901 | | PHILO | | 32 | | is thinking ||
+  1   0 |       901 | | PHILO | | 56 | | is thinking ||
+  1   0 |       901 | | PHILO | | 62 | | is thinking ||
+  1   0 |       901 | | PHILO | | 36 | | is thinking ||
+  1   0 |       901 | | PHILO | | 40 | | is thinking ||
+  1   0 |       901 | | PHILO | | 70 | | is thinking ||
+  1   0 |       901 | | PHILO | | 60 | | is thinking ||
+  1   0 |       902 | | PHILO | | 106 | | is thinking ||
+  1   0 |       902 | | PHILO | | 104 | | is thinking ||
+  1   0 |       902 | | PHILO | | 90 | | is thinking ||
+  1   0 |       902 | | PHILO | | 84 | | is thinking ||
+  1   0 |       902 | | PHILO | | 94 | | is thinking ||
+  1   0 |       902 | | PHILO | | 98 | | is thinking ||
+  1   0 |       902 | | PHILO | | 102 | | is thinking ||
+  1   0 |       902 | | PHILO | | 100 | | is thinking ||
+  1   0 |       902 | | PHILO | | 82 | | is thinking ||
+  1   0 |       902 | | PHILO | | 74 | | is thinking ||
+  1   0 |       902 | | PHILO | | 88 | | is thinking ||
+  1   0 |       902 | | PHILO | | 96 | | is thinking ||
+  1   0 |       902 | | PHILO | | 72 | | is thinking ||
+  1   0 |       902 | | PHILO | | 80 | | is thinking ||
+  1   0 |       902 | | PHILO | | 86 | | is thinking ||
+  1   0 |       902 | | PHILO | | 92 | | is thinking ||
+  1   0 |       902 | | PHILO | | 76 | | is thinking ||
+  1   0 |       902 | | PHILO | | 78 | | is thinking ||
+  1   0 |       903 | | PHILO | | 114 | | is thinking ||
+  1   0 |       903 | | PHILO | | 120 | | is thinking ||
+  1   0 |       903 | | PHILO | | 126 | | is thinking ||
+  1   0 |       903 | | PHILO | | 112 | | is thinking ||
+  1   0 |       903 | | PHILO | | 110 | | is thinking ||
+  1   0 |       903 | | PHILO | | 130 | | is thinking ||
+  1   0 |       903 | | PHILO | | 122 | | is thinking ||
+  1   0 |       903 | | PHILO | | 116 | | is thinking ||
+  1   0 |       903 | | PHILO | | 128 | | is thinking ||
+  1   0 |       903 | | PHILO | | 108 | | is thinking ||
+  1   0 |       903 | | PHILO | | 132 | | is thinking ||
+  1   0 |       903 | | PHILO | | 124 | | is thinking ||
+  1   0 |       903 | | PHILO | | 118 | | is thinking ||
+  1   0 |       904 | | PHILO | | 140 | | is thinking ||
+  1   0 |       904 | | PHILO | | 144 | | is thinking ||
+  1   0 |       904 | | PHILO | | 148 | | is thinking ||
+  1   0 |       904 | | PHILO | | 150 | | is thinking ||
+  1   0 |       904 | | PHILO | | 152 | | is thinking ||
+  1   0 |       904 | | PHILO | | 146 | | is thinking ||
+  1   0 |       904 | | PHILO | | 134 | | is thinking ||
+  1   0 |       904 | | PHILO | | 136 | | is thinking ||
+  1   0 |       904 | | PHILO | | 142 | | is thinking ||
+  1   0 |       904 | | PHILO | | 138 | | is thinking ||
+  1   0 |       905 | | PHILO | | 158 | | is thinking ||
+  1   0 |       905 | | PHILO | | 162 | | is thinking ||
+  1   0 |       905 | | PHILO | | 164 | | is thinking ||
+  1   0 |       905 | | PHILO | | 168 | | is thinking ||
+  1   0 |       905 | | PHILO | | 160 | | is thinking ||
+  1   0 |       905 | | PHILO | | 156 | | is thinking ||
+  1   0 |       905 | | PHILO | | 154 | | is thinking ||
+  1   0 |       905 | | PHILO | | 166 | | is thinking ||
+  1   0 |       906 | | PHILO | | 178 | | is thinking ||
+  1   0 |       906 | | PHILO | | 176 | | is thinking ||
+  1   0 |       906 | | PHILO | | 174 | | is thinking ||
+  1   0 |       906 | | PHILO | | 172 | | is thinking ||
+  1   0 |       906 | | PHILO | | 170 | | is thinking ||
+  1   0 |       907 | | PHILO | | 182 | | is thinking ||
+  1   0 |       907 | | PHILO | | 190 | | is thinking ||
+  1   0 |       907 | | PHILO | | 188 | | is thinking ||
+  1   0 |       907 | | PHILO | | 184 | | is thinking ||
+  1   0 |       907 | | PHILO | | 180 | | is thinking ||
+  1   0 |       907 | | PHILO | | 186 | | is thinking ||
+  1   0 |       908 | | PHILO | | 192 | | is thinking ||
+  1   0 |       908 | | PHILO | | 198 | | is thinking ||
+  1   0 |       908 | | PHILO | | 2 | | is thinking ||
+  1   0 |       908 | | PHILO | | 200 | | is thinking ||
+  1   0 |       908 | | PHILO | | 196 | | is thinking ||
+  1   0 |       910 | | PHILO | | 194 | | is thinking ||
+  1   0

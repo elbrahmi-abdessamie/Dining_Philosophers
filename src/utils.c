@@ -3,7 +3,7 @@
 
 unsigned int	time_line(void)
 {
-	unsigned int	cur_time;
+	unsigned long	cur_time;
 	struct timeval	s_time;
 
 	cur_time = 0;

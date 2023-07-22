@@ -77,7 +77,7 @@
 short	data_init(int ac, char **av, t_share_data *data)
 {
 	memset(data, 0, sizeof(t_share_data));
-	data->start_sim_time = (unsigned long)time_line;
+	data->start_sim_time = (unsigned long)time_line();
 	data->philo_num = ft_atoi_parse(av[1]);
 	if (data->philo_num == (unsigned long)-1)
 		return (false);
@@ -119,6 +119,7 @@ int	p_init(t_share_data *data)
 		data->philo[i].pid = i + 1;
 		data->philo[i].data = data;
 		data->philo[i].stat = TS_ALIVE;
+		data->philo[i].last_meal = data->start_sim_time;
 	data->philo[i].num_of_meal_taken = 0;
 		data->philo[i].r_fork = NULL;
 		pthread_mutex_init(&data->philo[i].l_fork, NULL);
@@ -135,8 +136,8 @@ int	p_init(t_share_data *data)
 
 void	syncro(t_philo *p)
 {
-	if (p->pid % 2)
-		ft_usleep(p->data->time_to_eat);
+	if (!(p->pid % 2))
+		ft_usleep(p->data->time_to_eat / 10);
 }
 
 int	phil_death_check(t_philo *p)
@@ -158,49 +159,52 @@ void	ft_write_stat(char *str, t_philo *p)
 	time = time_line() - cur;
 	if (time >= 0 && !phil_death_check(p))
 	{
-		printf("| %lu |", time);
+		printf(" | %9lu |", time);
 		printf(" | PHILO | | %d | | %s  %d   %d", p->pid, str, p->num_of_meal_taken, p->data->sim);
+		// printf(" | PHILO | | %6d | | %18s ", p->pid, str);
+
 	}
 }
 void routine(t_philo *p)
 {
 	pthread_mutex_lock(&p->l_fork);
 	pthread_mutex_lock(&p->data->write_mtx);
-	ft_write_stat("take the fork\n", p);
+	ft_write_stat("take the fork ||\n", p);
 	pthread_mutex_unlock(&p->data->write_mtx);
 	if (!p->r_fork)
 	{
-		ft_usleep(p->data->time_to_die * 2);
+		ft_usleep(p->data->time_to_die + 1);
+
 		return ;
 	}
-	pthread_mutex_unlock(&p->l_fork);
 	pthread_mutex_lock(p->r_fork);
 	pthread_mutex_lock(&p->data->write_mtx);
-	ft_write_stat("take the fork\n", p);
+	ft_write_stat("take the fork ||\n", p);
 	pthread_mutex_unlock(&p->data->write_mtx);
 	pthread_mutex_lock(&p->data->write_mtx);
-	ft_write_stat("eating\n", p);
+	ft_write_stat("eating ||\n", p);
 	pthread_mutex_lock(&p->data->l_eat_time);
 	p->last_meal = time_line();
 	pthread_mutex_unlock(&p->data->l_eat_time);
 	pthread_mutex_unlock(&p->data->write_mtx);
 	ft_usleep(p->data->time_to_eat);
 	pthread_mutex_unlock(p->r_fork);
+	pthread_mutex_unlock(&p->l_fork);
 	pthread_mutex_lock(&p->data->write_mtx);
-	ft_write_stat("is sleeping\n", p);
+	ft_write_stat("is sleeping ||\n", p);
 	pthread_mutex_unlock(&p->data->write_mtx);
 	ft_usleep(p->data->time_to_sleep);
-		pthread_mutex_lock(&p->data->write_mtx);
-	ft_write_stat("is thinking\n", p);
+	pthread_mutex_lock(&p->data->write_mtx);
+	ft_write_stat("is thinking ||\n", p);
 	pthread_mutex_unlock(&p->data->write_mtx);
 }
+
 void *thread(void *arg)
 {
 	t_philo	*phil;
 
 	phil = (t_philo *)arg;
 	syncro(phil);
-	phil->data->philo_die = 4;
 	while (!phil_death_check(phil))
 	{
 		routine(phil);
@@ -245,6 +249,14 @@ void	halt_simulation(t_share_data *data)
 	iter = -1;
 	while (++iter < data->philo_num)
 		pthread_join(data->philo[iter].tid, NULL);
+	iter = -1;
+	while (++iter < data->philo_num)
+		pthread_mutex_destroy(&data->philo[iter].l_fork);
+	pthread_mutex_destroy(&data->write_mtx);
+	pthread_mutex_destroy(&data->termainate);
+	pthread_mutex_destroy(&data->l_eat_time);
+	pthread_mutex_destroy(&data->stat_p);
+	
 }
 int main(int ac, char **av)
 {
