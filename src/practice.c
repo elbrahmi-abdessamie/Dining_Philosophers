@@ -149,9 +149,14 @@ int	phil_death_check(t_philo *p)
 		return (1);
 	}	
 	pthread_mutex_unlock(&p->data->termainate);
-	return (0);
+	return (0); 
 }
-
+void	canva(void)
+{
+	printf(" \033[32;1m+---------------------+-----------+---------+--------------------+\n");
+	printf(" |       TIME(ms)      +   PROFIL  +    ID   +        EVENT       |\n");\
+	printf(" +---------------------+-----------+---------+--------------------+\n");
+}
 void	ft_write_stat(char *str, t_philo *p)
 {
 	unsigned long	time;
@@ -159,8 +164,8 @@ void	ft_write_stat(char *str, t_philo *p)
 	time = time_line() - cur;
 	if (time >= 0 && !p->data->sim)
 	{
-		printf(" | %9lu |", time);
-		printf(" | PHILO | | %6lu | | %18s", p->pid, str);
+		printf(" | %11lu         |", time);
+		printf(" | PHILO | | %4lu    | | %19s", p->pid, str);
 	}
 }
 void routine(t_philo *p)
@@ -206,6 +211,13 @@ void *thread(void *arg)
 	while (!phil_death_check(phil) && !phil->data->sim)
 	{
 		routine(phil);
+		if (phil->data->philo_num == 1)
+		{
+			pthread_mutex_lock(&phil->data->write_mtx);
+			ft_write_stat("dead ||\n", phil);
+			pthread_mutex_unlock(&phil->data->write_mtx);
+			break ;
+		}
 		if (phil->data->sim)
 			break;
 		if (++phil->num_of_meal_taken == phil->data->num_of_meals)
@@ -234,6 +246,7 @@ int	simulate(t_share_data *data, t_philo *p)
 
 	if (!p_init(data))
 		return (0);
+	canva();
 	while (iter < data->philo_num)
 	{
 		if (pthread_create(&data->philo[iter].tid, NULL, thread, &data->philo[iter]))
@@ -277,13 +290,11 @@ int main(int ac, char **av)
 		return (puts("Error\n"), 1);
 	simulate(&data, philos);
 	int iter = 0;
-	while (!data.sim)
+	while (!data.sim && data.philo_num > 1)
 	{
 		if (iter == data.philo_num - 1)
 			iter = 0;
-		usleep(1000);
-		// ft_usleep(data.time_to_die + 1);
-		// printf("cur time %u last meal %u\n", time_line(), philos[iter].last_meal);
+		usleep(100);
 		pthread_mutex_lock(&data.termainate);
 		if ((time_line() - philos[iter].last_meal) >= data.time_to_die && !data.sim)
 		{
