@@ -13,8 +13,7 @@ C_CLS = \033[0m
 #         GLOBAL_VARIABLE        #
 #================================#
 
-FLAGS =	-g -pthread 
-# -fsanitize=thread 
+FLAGS =	-g -pthread  -fsanitize=thread 
 RM =	rm -rf
 
 #================================#

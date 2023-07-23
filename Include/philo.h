@@ -24,6 +24,7 @@ typedef struct s_share_data{
 	pthread_mutex_t	termainate;
 	pthread_mutex_t	l_eat_time;
 	pthread_mutex_t	stat_p;
+	pthread_mutex_t	dead;
 	unsigned long	philo_num;
 	unsigned long	philo_die;
 	unsigned long	time_to_die;
