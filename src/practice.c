@@ -1,79 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   practice.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/07/26 17:56:12 by aelbrahm          #+#    #+#             */
+/*   Updated: 2023/07/26 18:58:16 by aelbrahm         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../Include/philo.h"
 
-// int x = 0;
-// pthread_mutex_t mutex;
-// void	*stat()
-// {
-// 	for(int i = 0; i < 10000; i++)
-// 	{
-// 		pthread_mutex_lock(&mutex);
-// 		x++;
-// 		pthread_mutex_unlock(&mutex);
-// 	}
-// 	return NULL;
-// }
-// void	*russ_roll()
-// {
-// 	int val = (rand() % 6) + 1;
-// 	x += val;
-// 	printf("U've got => %d\n", val);
-// 	return (NULL);
-// }
-// int		thread_init(pthread_t *threads, int n_thread)
-// {
-// 		puts("--------------- Dream on --------------\n");
-// 		puts("---------- GET THE LUCKY ¬12¬ ------------\n");
-// 	for(int i = 0; i < n_thread; i++)
-// 	{
-// 		// printf("Thread %d started counting...\n", i + 1);
-// 		// printf("x => %d\n", x);
-// 		if (pthread_create(&threads[i], NULL, &russ_roll, NULL))
-// 			return (puts("Failed to create thread\n"), 1);
-// 		// usleep(50000);
-// 	}
-// 	for(int i = 0; i < n_thread; i++)
-// 	{
-// 		if (pthread_join(threads[i], NULL))
-// 			return (puts("Failed to join thread\n"), 2);
-// 		// printf("Thread %d end counting...\n", i + 1);
-// 		// printf("x => %d\n", x);
-// 	}
-// 		puts("---------------- wake up ---------------\n");
-// 	return 0;
-// }
-
-// int		t_create(char *av)
-// {
-// 	int n_philo = atoi(av);
-// 	pthread_t	tr[n_philo];
-// 	pthread_mutex_init(&mutex, NULL);
-	
-// 	// if (pthread_create(&tr1, NULL, &stat, NULL))
-// 	// 	return 1;
-// 	// if (pthread_create(&tr2, NULL, &stat, NULL))
-// 	// 	return 2;
-// 	// pthread_join(tr1, NULL);
-// 	// pthread_join(tr2, NULL);
-// 	return (thread_init(tr, n_philo));
-// }
-// int main(int ac, char **av)
-// {
-// 	srand(time(NULL));
-// 	float prs = 0.0000001;
-// 	if (t_create(av[1]))
-// 		puts("Error\n");	
-// 	if (x == 12)
-// 	{
-// 		if (atoi(av[1]) == 2)
-// 			printf("GOOD GAME YOU GOT %.7fBTC>\n", prs / pow(10, 2));
-// 		else if (atoi(av[1]) > 2)
-// 			printf("GOOD GAME YOU GOT %.7fBTC>\n", (prs * pow(10, (double)atoi(av[1]))));
-// 	}	
-// 	else{
-// 		printf("GOOD LUCK NEXT TIMEπ\n");
-// 	}
-// 	return 0;
-// }
 short	data_init(int ac, char **av, t_share_data *data)
 {
 	memset(data, 0, sizeof(t_share_data));
@@ -111,8 +49,6 @@ int	p_init(t_share_data *data)
 	int	i;
 
 	i = 0;
-	// data->philo[0].data = data;
-
 	inti_mtx(data);
 	while (i < data->philo_num)
 	{
@@ -160,6 +96,7 @@ void	canva(void)
 void	ft_write_stat(char *str, t_philo *p)
 {
 	unsigned long	time;
+	pthread_mutex_lock(&p->data->write_mtx);
 	unsigned int	cur = p->data->start_sim_time;
 	time = time_line() - cur;
 	if (time >= 0 && !p->data->sim)
@@ -167,39 +104,31 @@ void	ft_write_stat(char *str, t_philo *p)
 		printf(" | %11lu         |", time);
 		printf(" | PHILO | | %4lu    | | %19s", p->pid, str);
 	}
+	pthread_mutex_unlock(&p->data->write_mtx);
+
 }
 void routine(t_philo *p)
 {
-		pthread_mutex_lock(&p->l_fork);
-		pthread_mutex_lock(&p->data->write_mtx);
-		ft_write_stat("take the fork ||\n", p);
-		pthread_mutex_unlock(&p->data->write_mtx);
-		if (!p->r_fork)
-		{
-			ft_usleep(p->data->time_to_die + 1);
-			return ;
-		}
-		pthread_mutex_lock(p->r_fork);
-		pthread_mutex_lock(&p->data->write_mtx);
-		ft_write_stat("take the fork ||\n", p);
-		pthread_mutex_unlock(&p->data->write_mtx);
-		pthread_mutex_lock(&p->data->write_mtx);
-		ft_write_stat("eating ||\n", p);
-		pthread_mutex_lock(&p->data->l_eat_time);
-		p->last_meal = time_line();
-		// p->num_of_meal_taken++;
-		pthread_mutex_unlock(&p->data->l_eat_time);
-		pthread_mutex_unlock(&p->data->write_mtx);
-		ft_usleep(p->data->time_to_eat);
-		pthread_mutex_unlock(p->r_fork);
-		pthread_mutex_unlock(&p->l_fork);
-		pthread_mutex_lock(&p->data->write_mtx);
-		ft_write_stat("is sleeping ||\n", p);
-		pthread_mutex_unlock(&p->data->write_mtx);
-		ft_usleep(p->data->time_to_sleep);
-		pthread_mutex_lock(&p->data->write_mtx);
-		ft_write_stat("is thinking ||\n", p);
-		pthread_mutex_unlock(&p->data->write_mtx);
+	pthread_mutex_lock(&p->l_fork);
+	ft_write_stat("take the fork ||\n", p);
+	if (!p->r_fork)
+	{
+		ft_usleep(p->data->time_to_die + 1);
+		return ;
+	}
+	pthread_mutex_lock(p->r_fork);
+	ft_write_stat("take the fork ||\n", p);
+	ft_write_stat("eating ||\n", p);
+	pthread_mutex_lock(&p->data->l_eat_time);
+	p->last_meal = time_line();
+	p->num_of_meal_taken++;
+	pthread_mutex_unlock(&p->data->l_eat_time);
+	ft_usleep(p->data->time_to_eat);
+	pthread_mutex_unlock(p->r_fork);
+	pthread_mutex_unlock(&p->l_fork);
+	ft_write_stat("is sleeping ||\n", p);
+	ft_usleep(p->data->time_to_sleep);
+	ft_write_stat("is thinking ||\n", p);
 }
 
 void *thread(void *arg)
@@ -213,23 +142,20 @@ void *thread(void *arg)
 		routine(phil);
 		if (phil->data->philo_num == 1)
 		{
-			pthread_mutex_lock(&phil->data->write_mtx);
 			ft_write_stat("dead ||\n", phil);
-			pthread_mutex_unlock(&phil->data->write_mtx);
 			break ;
 		}
 		if (phil->data->sim)
 			break;
-		if (++phil->num_of_meal_taken == phil->data->num_of_meals)
+		if (phil->num_of_meal_taken == phil->data->num_of_meals)
 		{
 			pthread_mutex_lock(&phil->data->stat_p);
 			phil->data->philo_die++;
 			phil->stat = TS_TERMINATED;
 			if (phil->data->philo_die == phil->data->philo_num)
 			{
-				pthread_mutex_unlock(&phil->data->stat_p);
 				phil->data->sim = 1;
-				// phil_death_check(phil);
+				pthread_mutex_unlock(&phil->data->stat_p);
 			}
 			pthread_mutex_unlock(&phil->data->stat_p);
 			return (NULL);
@@ -260,6 +186,7 @@ void	halt_simulation(t_share_data *data)
 	int	iter;
 
 	iter = -1;
+	
 	while (++iter < data->philo_num)
 		pthread_join(data->philo[iter].tid, NULL);
 	iter = -1;
@@ -272,43 +199,31 @@ void	halt_simulation(t_share_data *data)
 	
 }
 
-// void ts_listener(t_philo *p)
-// {
-// 	int	iter;
-
-// 	iter = -1;
-// }
 int main(int ac, char **av)
 {
 	t_share_data data;
 	t_philo		philos[MAX_P];
-	// philos[0].pid = 2;
-	// data.philo = philos;
+	int 		iter;
+
+	iter = 0;
 	if (ac < 4)
 		return (puts("error\n"), 1);
 	if (!data_init(ac, av, &data))
 		return (puts("Error\n"), 1);
 	simulate(&data, philos);
-	int iter = 0;
 	while (!data.sim && data.philo_num > 1)
 	{
 		if (iter == data.philo_num - 1)
 			iter = 0;
-		usleep(100);
-		pthread_mutex_lock(&data.termainate);
+		ft_usleep(data.time_to_die + 1);
 		if ((time_line() - philos[iter].last_meal) >= data.time_to_die && !data.sim)
 		{
-			pthread_mutex_unlock(&data.termainate);
-			pthread_mutex_lock(&data.write_mtx);
 			ft_write_stat("died ||\n", &philos[iter]);
-			pthread_mutex_unlock(&data.write_mtx);
 			data.sim = 1;
 			philos[iter].stat = TS_TERMINATED;
 			break ;
 		}
-		pthread_mutex_unlock(&data.termainate);
 		iter++;
 	}
-	// pthread_mutex_unlock(&data.termainate);
 	halt_simulation(&data);
 }

@@ -1,175 +1,64 @@
- |         1 | | PHILO | |      1 | |  take the fork ||
- |         2 | | PHILO | |      1 | |  take the fork ||
- |         2 | | PHILO | |      1 | |         eating ||
- |         2 | | PHILO | |      3 | |  take the fork ||
- |         2 | | PHILO | |      3 | |  take the fork ||
- |         2 | | PHILO | |      3 | |         eating ||
- |         3 | | PHILO | |      5 | |  take the fork ||
- |       202 | | PHILO | |      3 | |    is sleeping ||
- |       202 | | PHILO | |      1 | |    is sleeping ||
- |       202 | | PHILO | |      4 | |  take the fork ||
- |       202 | | PHILO | |      2 | |  take the fork ||
- |       202 | | PHILO | |      2 | |  take the fork ||
- |       202 | | PHILO | |      2 | |         eating ||
- |       202 | | PHILO | |      5 | |  take the fork ||
- |       202 | | PHILO | |      5 | |         eating ||
- |       402 | | PHILO | |      3 | |    is thinking ||
- |       402 | | PHILO | |      4 | |  take the fork ||
- |       402 | | PHILO | |      4 | |         eating ||
- |       402 | | PHILO | |      5 | |    is sleeping ||
- |       402 | | PHILO | |      1 | |    is thinking ||
- |       402 | | PHILO | |      1 | |  take the fork ||
- |       402 | | PHILO | |      1 | |  take the fork ||
- |       402 | | PHILO | |      1 | |         eating ||
- |       402 | | PHILO | |      2 | |    is sleeping ||
- |       402 | | PHILO | |      3 | |  take the fork ||
- |       602 | | PHILO | |      2 | |    is thinking ||
- |       602 | | PHILO | |      3 | |  take the fork ||
- |       602 | | PHILO | |      3 | |         eating ||
- |       602 | | PHILO | |      4 | |    is sleeping ||
- |       602 | | PHILO | |      1 | |    is sleeping ||
- |       602 | | PHILO | |      2 | |  take the fork ||
- |       602 | | PHILO | |      5 | |    is thinking ||
- |       602 | | PHILO | |      5 | |  take the fork ||
- |       602 | | PHILO | |      5 | |  take the fork ||
- |       602 | | PHILO | |      5 | |         eating ||
- |       802 | | PHILO | |      1 | |    is thinking ||
- |       802 | | PHILO | |      2 | |  take the fork ||
- |       802 | | PHILO | |      2 | |         eating ||
- |       802 | | PHILO | |      3 | |    is sleeping ||
- |       802 | | PHILO | |      4 | |    is thinking ||
- |       802 | | PHILO | |      4 | |  take the fork ||
- |       802 | | PHILO | |      4 | |  take the fork ||
- |       802 | | PHILO | |      4 | |         eating ||
- |       802 | | PHILO | |      5 | |    is sleeping ||
- |       802 | | PHILO | |      1 | |  take the fork ||
- |      1002 | | PHILO | |      4 | |    is sleeping ||
- |      1002 | | PHILO | |      1 | |  take the fork ||
- |      1002 | | PHILO | |      1 | |         eating ||
- |      1002 | | PHILO | |      2 | |    is sleeping ||
- |      1002 | | PHILO | |      5 | |    is thinking ||
- |      1002 | | PHILO | |      5 | |  take the fork ||
- |      1002 | | PHILO | |      3 | |    is thinking ||
- |      1002 | | PHILO | |      3 | |  take the fork ||
- |      1002 | | PHILO | |      3 | |  take the fork ||
- |      1002 | | PHILO | |      3 | |         eating ||
- |      1202 | | PHILO | |      2 | |    is thinking ||
- |      1202 | | PHILO | |      5 | |  take the fork ||
- |      1202 | | PHILO | |      5 | |         eating ||
- |      1202 | | PHILO | |      1 | |    is sleeping ||
- |      1202 | | PHILO | |      2 | |  take the fork ||
- |      1202 | | PHILO | |      2 | |  take the fork ||
- |      1202 | | PHILO | |      2 | |         eating ||
- |      1202 | | PHILO | |      4 | |    is thinking ||
- |      1202 | | PHILO | |      3 | |    is sleeping ||
- |      1202 | | PHILO | |      4 | |  take the fork ||
- |      1402 | | PHILO | |      3 | |    is thinking ||
- |      1402 | | PHILO | |      2 | |    is sleeping ||
- |      1402 | | PHILO | |      1 | |    is thinking ||
- |      1402 | | PHILO | |      1 | |  take the fork ||
- |      1402 | | PHILO | |      1 | |  take the fork ||
- |      1402 | | PHILO | |      1 | |         eating ||
- |      1402 | | PHILO | |      5 | |    is sleeping ||
- |      1402 | | PHILO | |      4 | |  take the fork ||
- |      1402 | | PHILO | |      4 | |         eating ||
- |      1402 | | PHILO | |      3 | |  take the fork ||
- |      1602 | | PHILO | |      5 | |    is thinking ||
- |      1602 | | PHILO | |      3 | |  take the fork ||
- |      1602 | | PHILO | |      3 | |         eating ||
- |      1602 | | PHILO | |      4 | |    is sleeping ||
- |      1602 | | PHILO | |      2 | |    is thinking ||
- |      1602 | | PHILO | |      2 | |  take the fork ||
- |      1602 | | PHILO | |      1 | |    is sleeping ||
- |      1602 | | PHILO | |      5 | |  take the fork ||
- |      1602 | | PHILO | |      5 | |  take the fork ||
- |      1602 | | PHILO | |      5 | |         eating ||
- |      1802 | | PHILO | |      4 | |    is thinking ||
- |      1802 | | PHILO | |      2 | |  take the fork ||
- |      1802 | | PHILO | |      2 | |         eating ||
- |      1802 | | PHILO | |      3 | |    is sleeping ||
- |      1802 | | PHILO | |      1 | |    is thinking ||
- |      1802 | | PHILO | |      1 | |  take the fork ||
- |      1802 | | PHILO | |      5 | |    is sleeping ||
- |      1802 | | PHILO | |      4 | |  take the fork ||
- |      1802 | | PHILO | |      4 | |  take the fork ||
- |      1802 | | PHILO | |      4 | |         eating ||
- |      2002 | | PHILO | |      5 | |    is thinking ||
- |      2002 | | PHILO | |      1 | |  take the fork ||
- |      2002 | | PHILO | |      1 | |         eating ||
- |      2002 | | PHILO | |      2 | |    is sleeping ||
- |      2002 | | PHILO | |      4 | |    is sleeping ||
- |      2002 | | PHILO | |      5 | |  take the fork ||
- |      2002 | | PHILO | |      3 | |    is thinking ||
- |      2002 | | PHILO | |      3 | |  take the fork ||
- |      2002 | | PHILO | |      3 | |  take the fork ||
- |      2002 | | PHILO | |      3 | |         eating ||
- |      2202 | | PHILO | |      4 | |    is thinking ||
- |      2202 | | PHILO | |      5 | |  take the fork ||
- |      2202 | | PHILO | |      5 | |         eating ||
- |      2202 | | PHILO | |      1 | |    is sleeping ||
- |      2202 | | PHILO | |      3 | |    is sleeping ||
- |      2202 | | PHILO | |      4 | |  take the fork ||
- |      2202 | | PHILO | |      2 | |    is thinking ||
- |      2202 | | PHILO | |      2 | |  take the fork ||
- |      2202 | | PHILO | |      2 | |  take the fork ||
- |      2202 | | PHILO | |      2 | |         eating ||
- |      2402 | | PHILO | |      1 | |    is thinking ||
- |      2402 | | PHILO | |      3 | |    is thinking ||
- |      2402 | | PHILO | |      3 | |  take the fork ||
- |      2402 | | PHILO | |      5 | |    is sleeping ||
- |      2402 | | PHILO | |      4 | |  take the fork ||
- |      2402 | | PHILO | |      4 | |         eating ||
- |      2402 | | PHILO | |      2 | |    is sleeping ||
- |      2402 | | PHILO | |      1 | |  take the fork ||
- |      2402 | | PHILO | |      1 | |  take the fork ||
- |      2402 | | PHILO | |      1 | |         eating ||
- |      2602 | | PHILO | |      2 | |    is thinking ||
- |      2602 | | PHILO | |      1 | |    is sleeping ||
- |      2602 | | PHILO | |      4 | |    is sleeping ||
- |      2602 | | PHILO | |      3 | |  take the fork ||
- |      2602 | | PHILO | |      3 | |         eating ||
- |      2602 | | PHILO | |      5 | |    is thinking ||
- |      2602 | | PHILO | |      5 | |  take the fork ||
- |      2602 | | PHILO | |      5 | |  take the fork ||
- |      2602 | | PHILO | |      5 | |         eating ||
- |      2602 | | PHILO | |      2 | |  take the fork ||
- |      2802 | | PHILO | |      1 | |    is thinking ||
- |      2802 | | PHILO | |      4 | |    is thinking ||
- |      2802 | | PHILO | |      4 | |  take the fork ||
- |      2802 | | PHILO | |      4 | |  take the fork ||
- |      2802 | | PHILO | |      4 | |         eating ||
- |      2802 | | PHILO | |      1 | |  take the fork ||
- |      2802 | | PHILO | |      5 | |    is sleeping ||
- |      2802 | | PHILO | |      3 | |    is sleeping ||
- |      2802 | | PHILO | |      2 | |  take the fork ||
- |      2802 | | PHILO | |      2 | |         eating ||
- |      3002 | | PHILO | |      3 | |    is thinking ||
- |      3002 | | PHILO | |      1 | |  take the fork ||
- |      3002 | | PHILO | |      1 | |         eating ||
- |      3002 | | PHILO | |      4 | |    is sleeping ||
- |      3002 | | PHILO | |      5 | |    is thinking ||
- |      3002 | | PHILO | |      5 | |  take the fork ||
- |      3002 | | PHILO | |      2 | |    is sleeping ||
- |      3002 | | PHILO | |      3 | |  take the fork ||
- |      3002 | | PHILO | |      3 | |  take the fork ||
- |      3002 | | PHILO | |      3 | |         eating ||
- |      3202 | | PHILO | |      3 | |    is sleeping ||
- |      3202 | | PHILO | |      5 | |  take the fork ||
- |      3202 | | PHILO | |      5 | |         eating ||
- |      3202 | | PHILO | |      1 | |    is sleeping ||
- |      3202 | | PHILO | |      2 | |    is thinking ||
- |      3202 | | PHILO | |      4 | |    is thinking ||
- |      3202 | | PHILO | |      2 | |  take the fork ||
- |      3202 | | PHILO | |      2 | |  take the fork ||
- |      3202 | | PHILO | |      2 | |         eating ||
- |      3202 | | PHILO | |      4 | |  take the fork ||
- |      3402 | | PHILO | |      1 | |    is thinking ||
- |      3402 | | PHILO | |      3 | |    is thinking ||
- |      3402 | | PHILO | |      4 | |  take the fork ||
- |      3402 | | PHILO | |      4 | |         eating ||
- |      3402 | | PHILO | |      2 | |    is sleeping ||
- |      3402 | | PHILO | |      5 | |    is sleeping ||
- |      3602 | | PHILO | |      5 | |    is thinking ||
- |      3602 | | PHILO | |      4 | |    is sleeping ||
- |      3602 | | PHILO | |      2 | |    is thinking ||
- |      3802 | | PHILO | |      4 | |    is thinking ||
+ [32;1m+---------------------+-----------+---------+--------------------+
+ |       TIME(ms)      +   PROFIL  +    ID   +        EVENT       |
+ +---------------------+-----------+---------+--------------------+
+ |           0         | | PHILO | |    1    | |   take the fork ||
+ |           0         | | PHILO | |    1    | |   take the fork ||
+ |           0         | | PHILO | |    1    | |          eating ||
+ |           1         | | PHILO | |    3    | |   take the fork ||
+ |           1         | | PHILO | |    3    | |   take the fork ||
+ |           1         | | PHILO | |    3    | |          eating ||
+ |           2         | | PHILO | |    5    | |   take the fork ||
+ |         200         | | PHILO | |    1    | |     is sleeping ||
+ |         200         | | PHILO | |    2    | |   take the fork ||
+ |         200         | | PHILO | |    5    | |   take the fork ||
+ |         200         | | PHILO | |    5    | |          eating ||
+ |         201         | | PHILO | |    3    | |     is sleeping ||
+ |         201         | | PHILO | |    4    | |   take the fork ||
+ |         201         | | PHILO | |    2    | |   take the fork ||
+ |         201         | | PHILO | |    2    | |          eating ||
+ |         400         | | PHILO | |    1    | |     is thinking ||
+ |         400         | | PHILO | |    5    | |     is sleeping ||
+ |         400         | | PHILO | |    1    | |   take the fork ||
+ |         400         | | PHILO | |    4    | |   take the fork ||
+ |         400         | | PHILO | |    4    | |          eating ||
+ |         401         | | PHILO | |    3    | |     is thinking ||
+ |         401         | | PHILO | |    2    | |     is sleeping ||
+ |         401         | | PHILO | |    3    | |   take the fork ||
+ |         401         | | PHILO | |    1    | |   take the fork ||
+ |         401         | | PHILO | |    1    | |          eating ||
+ |         600         | | PHILO | |    5    | |     is thinking ||
+ |         600         | | PHILO | |    5    | |   take the fork ||
+ |         600         | | PHILO | |    3    | |   take the fork ||
+ |         600         | | PHILO | |    3    | |          eating ||
+ |         600         | | PHILO | |    4    | |     is sleeping ||
+ |         601         | | PHILO | |    2    | |     is thinking ||
+ |         601         | | PHILO | |    1    | |     is sleeping ||
+ |         601         | | PHILO | |    5    | |   take the fork ||
+ |         601         | | PHILO | |    5    | |          eating ||
+ |         601         | | PHILO | |    2    | |   take the fork ||
+ |         800         | | PHILO | |    4    | |     is thinking ||
+ |         800         | | PHILO | |    2    | |   take the fork ||
+ |         800         | | PHILO | |    2    | |          eating ||
+ |         800         | | PHILO | |    4    | |   take the fork ||
+ |         800         | | PHILO | |    3    | |     is sleeping ||
+ |         801         | | PHILO | |    1    | |     is thinking ||
+ |         801         | | PHILO | |    5    | |     is sleeping ||
+ |         801         | | PHILO | |    1    | |   take the fork ||
+ |         801         | | PHILO | |    4    | |   take the fork ||
+ |         801         | | PHILO | |    4    | |          eating ||
+ |        1000         | | PHILO | |    3    | |     is thinking ||
+ |        1000         | | PHILO | |    1    | |   take the fork ||
+ |        1000         | | PHILO | |    1    | |          eating ||
+ |        1000         | | PHILO | |    3    | |   take the fork ||
+ |        1000         | | PHILO | |    2    | |     is sleeping ||
+ |        1422         | | PHILO | |    2    | |     is thinking ||
+ |        1423         | | PHILO | |    5    | |     is thinking ||
+ |        1451         | | PHILO | |    4    | |     is sleeping ||
+ |        1451         | | PHILO | |    5    | |   take the fork ||
+ |        1451         | | PHILO | |    3    | |   take the fork ||
+ |        1451         | | PHILO | |    3    | |          eating ||
+ |        1596         | | PHILO | |    1    | |     is sleeping ||
+ |        1596         | | PHILO | |    2    | |   take the fork ||
+ |        1596         | | PHILO | |    5    | |   take the fork ||
+ |        1596         | | PHILO | |    5    | |          eating ||
+ |        1624         | | PHILO | |    2    | |            died ||

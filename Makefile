@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/07/26 17:56:39 by aelbrahm          #+#    #+#              #
+#    Updated: 2023/07/26 17:56:41 by aelbrahm         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #================================#
 #         COLORS                 #
 #================================#
@@ -13,16 +25,14 @@ C_CLS = \033[0m
 #         GLOBAL_VARIABLE        #
 #================================#
 
-FLAGS =	-g -pthread  -fsanitize=thread 
+FLAGS =	-g -pthread -fsanitize=thread 
 RM =	rm -rf
 
 #================================#
 #         GLOBAL_VARIABLE        #
 #================================#
-# LIBH = LBft/libft.a
 SRCS = $(shell ls src | grep -E ".+\.c")
 OBJS_O = $(SRCS:.c=.o)
-# LB_DIR = LBft
 NAME = bin/Philo
 OBJS = $(addprefix obj/, $(OBJS_O))
 dir = bin obj
