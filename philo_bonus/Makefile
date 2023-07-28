@@ -6,7 +6,7 @@
 #    By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/26 17:56:39 by aelbrahm          #+#    #+#              #
-#    Updated: 2023/07/28 03:02:43 by aelbrahm         ###   ########.fr        #
+#    Updated: 2023/07/28 11:46:09 by aelbrahm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,8 @@ C_CLS = \033[0m
 #         GLOBAL_VARIABLE        #
 #================================#
 
-FLAGS =	-g -pthread  -fsanitize=thread 
+FLAGS =	-g -pthread    
+# -fsanitize=thread 
 RM =	rm -rf
 
 #================================#
@@ -33,10 +34,10 @@ RM =	rm -rf
 #================================#
 SRCS = $(shell ls src | grep -E ".+\.c")
 OBJS_O = $(SRCS:.c=.o)
-NAME = bin/Philo
+NAME = bin/Philo_bonus
 OBJS = $(addprefix obj/, $(OBJS_O))
 dir = bin obj
-INCLU = Include/philo.h
+INCLU = Include/philo_bonus.h
 
 #================================#
 #            RULES               #
