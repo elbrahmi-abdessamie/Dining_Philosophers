@@ -1,0 +1,26 @@
+ [32;1m+---------------------+-----------+---------+--------------------+
+ |       TIME(ms)      +   PROFIL  +    ID   +        EVENT       |
+ +---------------------+-----------+---------+--------------------+
+ |           1         | | PHILO | |    3    | |   take the fork ||
+ |         201         | | PHILO | |    3    | |   take the fork ||
+ |         201         | | PHILO | |    3    | |          eating ||
+ |         401         | | PHILO | |    3    | |     is sleeping ||
+ |         601         | | PHILO | |    3    | |     is thinking ||
+ |         601         | | PHILO | |    3    | |   take the fork ||
+ |         601         | | PHILO | |    3    | |   take the fork ||
+ |         601         | | PHILO | |    3    | |          eating ||
+ |         801         | | PHILO | |    3    | |     is sleeping ||
+ |        1001         | | PHILO | |    3    | |     is thinking ||
+ |        1001         | | PHILO | |    3    | |   take the fork ||
+ |        1001         | | PHILO | |    3    | |   take the fork ||
+ |        1001         | | PHILO | |    3    | |          eating ||
+ |        1201         | | PHILO | |    3    | |     is sleeping ||
+ |        1401         | | PHILO | |    3    | |     is thinking ||
+ |        1401         | | PHILO | |    3    | |   take the fork ||
+ |        1401         | | PHILO | |    3    | |   take the fork ||
+ |        1401         | | PHILO | |    3    | |          eating ||
+ |        1601         | | PHILO | |    3    | |     is sleeping ||
+ Simulation ended
+ [32;1m+---------------------+-----------+---------+--------------------+
+ |       TIME(ms)      +   PROFIL  +    ID   +        EVENT       |
+ +---------------------+-----------+---------+--------------------+

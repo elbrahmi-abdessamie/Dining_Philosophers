@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:12 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/28 13:01:16 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/07/29 01:47:20 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ short	data_init(int ac, char **av, t_share_data *data)
 	data->time_to_sleep = ft_atoi_parse(av[4]);
 	if (data->time_to_eat == (unsigned long)-1)
 		return (false);
+	data->num_of_meals = (unsigned long)-1;
 	if (ac == 6)
 	{
 		data->num_of_meals = ft_atoi_parse(av[5]);
@@ -127,9 +128,10 @@ void routine(t_philo *p)
 	ft_write_stat("eating ||\n", p);
 	// sem_wait(p->data->e_lock);
 	p->last_meal = time_line();
-	// sem_post(p->data->e_lock);
+	sem_post(p->data->b_lock);
 	ft_usleep(p->data->time_to_eat);
-	p->num_of_meal_taken++;
+	if (p->num_of_meal_taken != (unsigned long)-1)
+		p->num_of_meal_taken++;
 	sem_post(p->data->g_lock);
 	sem_post(p->data->g_lock);
 	ft_write_stat("is sleeping ||\n", p);
@@ -147,18 +149,23 @@ void *thread(void *arg)
 	{
 		ft_usleep(phil->data->time_to_die + 1);
 		sem_wait(phil->data->d_lock);
-		if ((time_line() - phil->last_meal) > phil->data->time_to_die)
+		sem_wait(phil->data->b_lock);
+		if ((time_line() - phil->last_meal) >= phil->data->time_to_die)
 		{
-			sem_post(phil->data->d_lock);	
+			// sem_post(phil->data->b_lock);	
 			ft_write_stat("died ||\n", phil);
 			exit(TS_TERMINATED);
 		}
+		// sem_post(phil->data->b_lock);	
+
 		sem_post(phil->data->d_lock);
 		sem_wait(phil->data->d_lock);
-		if (phil->num_of_meal_taken >= phil->data->num_of_meals)
+		if (phil->num_of_meal_taken >= phil->data->num_of_meals && phil->num_of_meal_taken != (unsigned long)-1)
 		{
+			sem_wait(phil->data->w_lock);
 			printf("\b Simulation ended\n");
-			sem_post(phil->data->d_lock);
+			sem_post(phil->data->w_lock);
+			// sem_post(phil->data->d_lock);
 			// sem_post(phil->data->s_lock);
 			exit(TS_TERMINATED);
 		}
@@ -223,14 +230,13 @@ int	simulate(t_share_data *data, t_philo *p)
 	while (iter < data->philo_num)
 	{
 		child(&p[iter]);
-		usleep(100);
+		// usleep(1000);
 		// printf("%d\n", p[iter].id);
 		iter++;
 	}
 	while (waitpid(-1, &stat, 0) > 0)
-		;
-	if (stat == TS_TERMINATED)
-		ft_killall(data);	
+		if (WIFEXITED(stat))
+			ft_killall(data);
 	// sem_wait(data->s_lock);
 	return (1);
 }

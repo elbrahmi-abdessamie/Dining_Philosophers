@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:50 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/28 11:44:02 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/07/29 01:46:57 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ typedef struct s_share_data{
 	sem_t			*w_lock;
 	sem_t			*d_lock;
 	sem_t			*s_lock;
-	// sem_t			*b_lock;
+	sem_t			*b_lock;
 	unsigned long	philo_num;
 	unsigned long	philo_die;
 	unsigned long	time_to_die;
