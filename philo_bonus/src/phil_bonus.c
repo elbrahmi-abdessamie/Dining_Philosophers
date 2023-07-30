@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:12 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/29 01:47:20 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/07/30 03:29:00 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,26 +39,31 @@ short	data_init(int ac, char **av, t_share_data *data)
 }
 int	open_sem(t_share_data *data)
 {
-	sem_unlink("/fork_lock");
+	if (sem_unlink("/fork_lock") == -1)
+		perror("sem_unlink");
 	data->g_lock = sem_open("/fork_lock", O_CREAT, 0644, (unsigned int)data->philo_num);
 	if (data->g_lock == SEM_FAILED)
         return 0;
-	sem_unlink("/write_lock");
+	if (sem_unlink("/write_lock") == -1)
+		perror("sem_unlink");
 	data->w_lock = sem_open("/write_lock", O_CREAT, 0644, 1);
 	if (data->w_lock == SEM_FAILED)
         return 0;
-	sem_unlink("/d_lock");
+	if (sem_unlink("/d_lock") == -1)
+		perror("sem_unlink");
 	data->d_lock = sem_open("/d_lock", O_CREAT, 0644, 1);
 	if (data->d_lock == SEM_FAILED)
         return 0;
-	sem_unlink("/stop_lock");
+	if (sem_unlink("/stop_lock") == -1)
+		perror("sem_unlink");
 	data->s_lock = sem_open("/stop_lock", O_CREAT, 0644, 1);
 	if (data->s_lock == SEM_FAILED)
         return 0;
-	// sem_unlink("/b_lock");
-	// data->b_lock = sem_open("/b_lock", O_CREAT, 0644, 1);
-	// if (data->b_lock == SEM_FAILED)
-    //     return 0;
+	if (sem_unlink("/b_lock") == -1)
+		perror("sem_unlink");
+	data->b_lock = sem_open("/b_lock", O_CREAT, 0644, 0);
+	if (data->b_lock == SEM_FAILED)
+        return 0;
 	return 1;
 }
 int	p_init(t_share_data *data)
@@ -85,17 +90,6 @@ void	syncro(t_philo *p)
 		ft_usleep(p->data->time_to_eat / 10);
 }
 
-int	phil_death_check(t_philo *p)
-{
-	sem_wait(p->data->d_lock);
-	if (p->stat == TS_TERMINATED)
-	{
-		sem_post(p->data->d_lock);
-		return (1);
-	}	
-	sem_post(p->data->d_lock);
-	return (0); 
-}
 void	canva(void)
 {
 	printf(" \033[32;1m+---------------------+-----------+---------+--------------------+\n");
@@ -148,8 +142,9 @@ void *thread(void *arg)
 	while (1)
 	{
 		ft_usleep(phil->data->time_to_die + 1);
+		if (sem_wait(phil->data->b_lock) == -1)
+			write(1, "FFFFFFF\n", 8);
 		sem_wait(phil->data->d_lock);
-		sem_wait(phil->data->b_lock);
 		if ((time_line() - phil->last_meal) >= phil->data->time_to_die)
 		{
 			// sem_post(phil->data->b_lock);	
@@ -157,7 +152,6 @@ void *thread(void *arg)
 			exit(TS_TERMINATED);
 		}
 		// sem_post(phil->data->b_lock);	
-
 		sem_post(phil->data->d_lock);
 		sem_wait(phil->data->d_lock);
 		if (phil->num_of_meal_taken >= phil->data->num_of_meals && phil->num_of_meal_taken != (unsigned long)-1)
@@ -165,8 +159,6 @@ void *thread(void *arg)
 			sem_wait(phil->data->w_lock);
 			printf("\b Simulation ended\n");
 			sem_post(phil->data->w_lock);
-			// sem_post(phil->data->d_lock);
-			// sem_post(phil->data->s_lock);
 			exit(TS_TERMINATED);
 		}
 		sem_post(phil->data->d_lock);
@@ -180,7 +172,7 @@ void	start_sim(t_philo *p)
 	p->last_meal = time_line();
 	pthread_create(&listner, NULL, thread, p);
 	pthread_detach(listner);
-	// syncro(p);
+	
 	while (1)
 		routine(p);
 }
@@ -225,12 +217,12 @@ int	simulate(t_share_data *data, t_philo *p)
 
 	if (!p_init(data))
 		return (0);
-	canva();
+	// canva();
 	// sem_wait(data->s_lock);
 	while (iter < data->philo_num)
 	{
 		child(&p[iter]);
-		// usleep(1000);
+		usleep(100);
 		// printf("%d\n", p[iter].id);
 		iter++;
 	}
