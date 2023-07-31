@@ -6,11 +6,19 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:22 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/28 02:20:57 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/07/31 02:58:08 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../Include/philo_bonus.h"
+
+t_bool	invalid_args(void)
+{
+	printf("usage : ./bin/philo number_of_philosophers");
+	printf(" time_to_die time_to_eat time_to_sleep ");
+	printf("[number_of_times_each_philosopher_must_eat]\n");
+	return (FAILED);
+}
 
 unsigned int	time_line(void)
 {
@@ -24,17 +32,7 @@ unsigned int	time_line(void)
 	return (cur_time);
 }
 
-void	ft_usleep(unsigned int time)
-{
-	unsigned int	start_time;
-
-	start_time = 0;
-	start_time = time_line();
-	while ((time_line() - start_time) < time)
-		usleep(time / 10);
-}
-
-t_bool ft_isdigit(int c)
+t_bool	ft_isdigit(int c)
 {
 	return ((c >= 0x30) & (c <= 0x39));
 }
