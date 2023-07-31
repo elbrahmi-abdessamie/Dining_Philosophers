@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:22 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/31 02:58:08 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/07/31 03:15:10 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 t_bool	invalid_args(void)
 {
-	printf("usage : ./bin/philo number_of_philosophers");
+	printf("\033[31;1musage : ./bin/philo number_of_philosophers");
 	printf(" time_to_die time_to_eat time_to_sleep ");
 	printf("[number_of_times_each_philosopher_must_eat]\n");
 	return (FAILED);

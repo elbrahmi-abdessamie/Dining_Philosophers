@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:12 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/31 03:11:40 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/07/31 03:14:09 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -134,9 +134,9 @@ int main(int ac, char **av)
 
 	iter = 0;
 	if (ac < 5 || ac > 6)
-		return (puts("error\n"), FAILED);
-	if (!data_init(ac, av, &data))
 		return (invalid_args());
+	if (!data_init(ac, av, &data))
+		return (FAILED);
 	if (!open_sem(&data))
 		ft_exit("sem_open ");
 	simulate(&data, philos);
