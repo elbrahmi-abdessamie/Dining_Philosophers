@@ -6,7 +6,7 @@
 #    By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/26 17:56:39 by aelbrahm          #+#    #+#              #
-#    Updated: 2023/07/31 07:58:59 by aelbrahm         ###   ########.fr        #
+#    Updated: 2023/08/02 08:12:34 by aelbrahm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ C_CLS = \033[0m
 #         GLOBAL_VARIABLE        #
 #================================#
 
-FLAGS =	-g -pthread  
+FLAGS = -Wall -Wextra -Werror -g -pthread  
 # -fsanitize=thread 
 RM =	rm -rf
 

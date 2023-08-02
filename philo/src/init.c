@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 08:26:01 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/08/01 18:47:50 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/02 08:52:28 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,14 @@ t_bool	data_init(int ac, char **av, t_share_data *data)
 	return (true);
 }
 
-void	p_init(t_share_data *data)
+int	p_init(t_share_data *data)
 {
 	int	i;
 
 	i = 0;
-	inti_mtx(data);
-	while (i < data->philo_num)
+	if (!inti_mtx(data))
+		return (_err_(MTX_INIT));
+	while (i < (int)data->philo_num)
 	{
 		data->philo[i].pid = i + 1;
 		data->philo[i].data = data;
@@ -51,28 +52,53 @@ void	p_init(t_share_data *data)
 		data->philo[i].last_meal = data->start_sim_time;
 		data->philo[i].num_of_meal_taken = 0;
 		data->philo[i].r_fork = NULL;
-		pthread_mutex_init(&data->philo[i].l_fork, NULL);
+		if (pthread_mutex_init(&data->philo[i].l_fork, NULL))
+			return (_err_(MTX_INIT));
 		if (data->philo_num == 1)
-			return ;
-		if (i == data->philo_num - 1)
+			return (1);
+		if (i == (int)(data->philo_num - 1))
 			data->philo[i].r_fork = &data->philo[0].l_fork;
 		else
 			data->philo[i].r_fork = &data->philo[i + 1].l_fork;
 		i++;
 	}
-	return ;
+	return (1);
 }
-void	inti_mtx(t_share_data *data)
+
+int	_err_(int err_id)
 {
-	pthread_mutex_init(&data->write_mtx, NULL);
-	pthread_mutex_init(&data->termainate, NULL);
-	pthread_mutex_init(&data->l_eat_time, NULL);
-	pthread_mutex_init(&data->stat_p, NULL);
+	if (err_id == MTX_INIT)
+		printf("\033[31;1m Failed to initialize a mutex\n");
+	if (err_id == W_ARGS)
+	{
+		printf("\033[31;1musage : ./bin/philo number_of_philosophers");
+		printf(" time_to_die time_to_eat time_to_sleep ");
+		printf("[number_of_times_each_philosopher_must_eat]\n");
+	}
+	if (err_id == P_CRT)
+		printf("\033[31;1mfailed to create thread\n");
+	return (0);
+}
+
+t_bool	inti_mtx(t_share_data *data)
+{
+	if (pthread_mutex_init(&data->write_mtx, NULL))
+		return (false);
+	if (pthread_mutex_init(&data->termainate, NULL))
+		return (false);
+	if (pthread_mutex_init(&data->l_eat_time, NULL))
+		return (false);
+	if (pthread_mutex_init(&data->stat_p, NULL))
+		return (false);
+	return (true);
 }
 
 void	canva(void)
 {
-	printf(" \033[32;1m+---------------------+-----------+---------+--------------------+\n");
-	printf(" |       TIME(ms)      +   PROFIL  +    ID   +        EVENT       |\n");\
-	printf(" +---------------------+-----------+---------+--------------------+\n");
+	printf(" \033[32;1m+----------------------+");
+	printf("------------+-----------+---------+-------\n");
+	printf(" |       TIME(ms)      +   PROFIL  +    ");
+	printf("ID   +        EVENT       |\n");
+	printf(" +---------------------+-----------");
+	printf("+---------+--------------------+\n");
 }

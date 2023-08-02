@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 02:09:03 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/31 03:04:36 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/02 09:39:11 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ void	ft_killall(t_share_data	*data)
 		kill(data->philo[iter++].pid, SIGKILL);
 	sem_close(data->d_lock);
 	sem_close(data->w_lock);
-	sem_close(data->s_lock);
 	sem_close(data->g_lock);
 }
 

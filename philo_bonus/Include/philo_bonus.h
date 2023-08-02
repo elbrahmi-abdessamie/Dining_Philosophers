@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:50 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/31 02:56:39 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/02 09:36:45 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@
 # define ERROR -1
 # define FAILED 1
 # define SUCCESS 0
+
 typedef struct s_philo	t_philo;
 
 typedef enum e_bool{
@@ -42,8 +43,6 @@ typedef struct s_share_data{
 	sem_t			*g_lock;
 	sem_t			*w_lock;
 	sem_t			*d_lock;
-	sem_t			*s_lock;
-	sem_t			*b_lock;
 	unsigned long	philo_num;
 	unsigned long	time_to_die;
 	unsigned long	time_to_eat;
@@ -54,13 +53,13 @@ typedef struct s_share_data{
 }	t_share_data;
 
 typedef struct s_philo{
+	t_share_data			*data;
 	pthread_t				tid;
+	sem_t					*t_lock;
 	int						id;
 	int						pid;
-	sem_t					*t_lock;
 	_Atomic unsigned int	last_meal;
 	_Atomic int				num_of_meal_taken;
-	t_share_data			*data;
 }	t_philo;
 
 unsigned long	ft_atoi_parse(char *str);
@@ -73,4 +72,7 @@ pid_t			ft_fork(t_share_data *data);
 t_bool			invalid_args(void);
 t_bool			data_init(int ac, char **av, t_share_data *data);
 t_bool			open_sem(t_share_data *data);
+void			ft_write_stat(char *str, t_philo *p, int flg);
+void			canva(void);
+int				simulate(t_share_data *data, t_philo *p);
 #endif

@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 08:37:15 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/08/01 18:39:30 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/02 08:54:47 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static int	phil_death_check(t_philo *p)
 	{
 		pthread_mutex_unlock(&p->data->termainate);
 		return (1);
-	}	
+	}
 	pthread_mutex_unlock(&p->data->termainate);
 	return (0); 
 }
@@ -45,29 +45,27 @@ void	*thread(void *arg)
 			ft_write_stat("dead ||\n", phil);
 			break ;
 		}
-		if (phil->data->sim)
-			break;
 	}
 	return (NULL);
 }
 
-int	simulate(t_share_data *data, t_philo *p)
+t_bool	simulate(t_share_data *data, t_philo *p)
 {
 	int	iter;
 
 	iter = 0;
 	data->philo = p;
-
-	puts("tst");
-	p_init(data);
+	if (!p_init(data))
+		return (false);
 	canva();
-	while (iter < data->philo_num)
+	while (iter < (int)data->philo_num)
 	{
-		if (pthread_create(&data->philo[iter].tid, NULL, thread, &data->philo[iter]))
-			return (puts("failed to create thread\n"), 0);
+		if (pthread_create(&data->philo[iter].tid, \
+		NULL, thread, &data->philo[iter]))
+			return (_err_(P_CRT));
 		iter++;
 	}
-	return (1);
+	return (true);
 }
 
 void	halt_simulation(t_share_data *data)
@@ -75,15 +73,13 @@ void	halt_simulation(t_share_data *data)
 	int	iter;
 
 	iter = -1;
-	
-	while (++iter < data->philo_num)
+	while (++iter < (int)data->philo_num)
 		pthread_join(data->philo[iter].tid, NULL);
 	iter = -1;
-	while (++iter < data->philo_num)
+	while (++iter < (int)data->philo_num)
 		pthread_mutex_destroy(&data->philo[iter].l_fork);
 	pthread_mutex_destroy(&data->write_mtx);
 	pthread_mutex_destroy(&data->termainate);
 	pthread_mutex_destroy(&data->l_eat_time);
 	pthread_mutex_destroy(&data->stat_p);
-	
 }

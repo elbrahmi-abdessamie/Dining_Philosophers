@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 08:32:40 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/31 08:42:04 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/02 08:53:55 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,9 @@ static t_bool	pick_fork(t_philo *p)
 	ft_write_stat("take the fork ||\n", p);
 	return (true);
 }
+
 static void	eat(t_philo *p)
 {
-
 	ft_write_stat("eating ||\n", p);
 	pthread_mutex_lock(&p->data->l_eat_time);
 	p->last_meal = time_line();
@@ -51,7 +51,7 @@ t_bool	routine(t_philo *p)
 		return (true);
 	eat(p);
 	sleep_nap(p);
-	if (p->num_of_meal_taken == p->data->num_of_meals)
+	if (p->num_of_meal_taken == (int)p->data->num_of_meals)
 	{
 		pthread_mutex_lock(&p->data->stat_p);
 		p->data->philo_die++;

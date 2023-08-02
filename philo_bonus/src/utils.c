@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:22 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/31 03:15:10 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/02 09:43:09 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ unsigned int	time_line(void)
 
 	cur_time = 0;
 	if (gettimeofday(&s_time, NULL) == -1)
-		return (printf("Gettimeofday function failed\n"), -1);	
+		return (printf("Gettimeofday function failed\n"), -1);
 	cur_time = (s_time.tv_sec * 1000) + (s_time.tv_usec / 1000);
 	return (cur_time);
 }
@@ -55,4 +55,14 @@ unsigned long	ft_atoi_parse(char *str)
 			return (-1); 
 	}
 	return (res);
+}
+
+void	canva(void)
+{
+	printf(" \033[32;1m+----------------------+");
+	printf("------------+-----------+---------+-------\n");
+	printf(" |       TIME(ms)      +   PROFIL  +    ");
+	printf("ID   +        EVENT       |\n");
+	printf(" +---------------------+-----------");
+	printf("+---------+--------------------+\n");
 }

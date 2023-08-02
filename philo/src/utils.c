@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:22 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/07/31 08:34:56 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/02 08:10:01 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ unsigned int	time_line(void)
 
 	cur_time = 0;
 	if (gettimeofday(&s_time, NULL) == -1)
-		return (puts("Gettimeofday function failed\n"), -1);	
+		return (-1);
 	cur_time = (s_time.tv_sec * 1000) + (s_time.tv_usec / 1000);
 	return (cur_time);
 }
@@ -34,7 +34,7 @@ void	ft_usleep(unsigned int time)
 		usleep(time / 10);
 }
 
-t_bool ft_isdigit(int c)
+t_bool	ft_isdigit(int c)
 {
 	return ((c >= 0x30) & (c <= 0x39));
 }
@@ -66,12 +66,11 @@ void	ft_write_stat(char *str, t_philo *p)
 
 	pthread_mutex_lock(&p->data->write_mtx);
 	cur = p->data->start_sim_time;
-	time = time_line() - cur;
-	if (time >= 0 && !p->data->sim)
+	time = (unsigned long)time_line() - cur;
+	if ((time >= 0 && time < (unsigned long)-1) && !p->data->sim)
 	{
 		printf(" | %11lu         |", time);
 		printf(" | PHILO | | %4lu    | | %19s", p->pid, str);
 	}
 	pthread_mutex_unlock(&p->data->write_mtx);
-
 }
