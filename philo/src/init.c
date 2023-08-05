@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 08:26:01 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/08/02 08:52:28 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/05 16:24:36 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ t_bool	data_init(int ac, char **av, t_share_data *data)
 	if (data->time_to_eat == (unsigned long)-1)
 		return (false);
 	data->time_to_sleep = ft_atoi_parse(av[4]);
-	if (data->time_to_eat == (unsigned long)-1)
+	if (data->time_to_sleep == (unsigned long)-1)
 		return (false);
 	if (ac == 6)
 	{

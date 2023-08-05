@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 09:24:50 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/08/02 09:42:45 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/05 16:30:49 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,7 @@ int	simulate(t_share_data *data, t_philo *p)
 	data->philo = p;
 	p_init(data);
 	canva();
-	while (iter < data->philo_num)
+	while (iter < (int)data->philo_num)
 	{
 		child(&p[iter]);
 		usleep(100);

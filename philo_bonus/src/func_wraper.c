@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 02:09:03 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/08/02 09:39:11 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/05 16:31:05 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_killall(t_share_data	*data)
 	int	iter;
 
 	iter = 0;
-	while (iter < data->philo_num)
+	while (iter < (int)data->philo_num)
 		kill(data->philo[iter++].pid, SIGKILL);
 	sem_close(data->d_lock);
 	sem_close(data->w_lock);

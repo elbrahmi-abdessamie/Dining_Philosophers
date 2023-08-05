@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   practice.c                                         :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 17:56:12 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/08/02 08:52:48 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/05 16:27:49 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,8 @@ int	main(int ac, char **av)
 		return (_err_(W_ARGS), 1);
 	if (!data_init(ac, av, &data))
 		return (_err_(DATA), 1);
+	if (!data.philo_num)
+		return (1);
 	if (!simulate(&data, philos))
 		return (1);
 	listner(&data);

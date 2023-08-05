@@ -6,7 +6,7 @@
 /*   By: aelbrahm <aelbrahm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 02:52:39 by aelbrahm          #+#    #+#             */
-/*   Updated: 2023/08/02 09:39:25 by aelbrahm         ###   ########.fr       */
+/*   Updated: 2023/08/05 16:30:37 by aelbrahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ t_bool	data_init(int ac, char **av, t_share_data *data)
 	if (data->time_to_eat == (unsigned long)-1)
 		return (false);
 	data->time_to_sleep = ft_atoi_parse(av[4]);
-	if (data->time_to_eat == (unsigned long)-1)
+	if (data->time_to_sleep == (unsigned long)-1)
 		return (false);
 	data->num_of_meals = (unsigned long)-1;
 	if (ac == 6)
@@ -61,7 +61,7 @@ void	p_init(t_share_data *data)
 	int	i;
 
 	i = 0;
-	while (i < data->philo_num)
+	while (i < (int)data->philo_num)
 	{
 		data->philo[i].id = i + 1;
 		data->philo[i].pid = -1;
